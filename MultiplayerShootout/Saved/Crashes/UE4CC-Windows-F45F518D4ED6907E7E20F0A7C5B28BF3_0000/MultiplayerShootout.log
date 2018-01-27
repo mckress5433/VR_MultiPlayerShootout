@@ -1,0 +1,702 @@
+﻿Log file open, 01/26/18 22:12:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MultiplayerShootout
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-778653109) SRandInit(-778653109).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.177556
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager: Warning: No filename provided for module OnlineSubsystemSteam
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/' was not found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.19.0
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.27-03.12.04:900][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.27-03.12.04:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.27-03.12.04:914][  0]LogInit: Computer: DESKTOP-TVE1Q8K
+[2018.01.27-03.12.04:914][  0]LogInit: User: Cosmotron
+[2018.01.27-03.12.04:914][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.27-03.12.04:914][  0]LogInit: High frequency timer resolution =2.648436 MHz
+[2018.01.27-03.12.04:914][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.01.27-03.12.04:914][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.27-03.12.04:914][  0]LogMemory: Process Physical Memory: 278.11 MB used, 278.11 MB peak
+[2018.01.27-03.12.04:914][  0]LogMemory: Process Virtual Memory: 274.16 MB used, 274.16 MB peak
+[2018.01.27-03.12.04:914][  0]LogMemory: Physical Memory: 4820.82 MB used,  27901.89 MB free, 32722.71 MB total
+[2018.01.27-03.12.04:914][  0]LogMemory: Virtual Memory: 733.89 MB used,  27901.89 MB free, 134217728.00 MB total
+[2018.01.27-03.12.05:065][  0]LogInit: Using OS detected language (en-US).
+[2018.01.27-03.12.05:065][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.27-03.12.05:068][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.27-03.12.05:495][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.27-03.12.05:760][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.27-03.12.05:798][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.27-03.12.05:798][  0]LogD3D11RHI:       8089/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.27-03.12.05:800][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.27-03.12.05:800][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.27-03.12.05:800][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.27-03.12.05:807][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.27-03.12.05:807][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.27-03.12.05:807][  0]LogWindows: EnumDisplayDevices:
+[2018.01.27-03.12.05:807][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.27-03.12.05:807][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.27-03.12.05:807][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.27-03.12.05:807][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.27-03.12.05:808][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.27-03.12.05:808][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.27-03.12.05:808][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.27-03.12.05:808][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.27-03.12.05:808][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
+[2018.01.27-03.12.05:835][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.27-03.12.05:909][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.27-03.12.05:951][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Cosmotron/Documents/GitHub/VR_MultiplayerShootout/MultiplayerShootout/Intermediate/Shaders/WorkingDirectory/10992/).
+[2018.01.27-03.12.05:951][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cosmotron/AppData/Local/Temp/UnrealShaderWorkingDir/AE1E490C4132A0BFB8209F883BFAF0BC/'.
+[2018.01.27-03.12.05:951][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.27-03.12.06:903][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.27-03.12.06:959][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.27-03.12.07:013][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.27-03.12.07:068][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.27-03.12.07:129][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.27-03.12.07:182][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.27-03.12.07:234][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.27-03.12.07:289][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.27-03.12.07:335][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.27-03.12.07:389][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.27-03.12.07:442][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.27-03.12.07:501][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.27-03.12.07:555][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.27-03.12.07:608][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.27-03.12.07:714][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.27-03.12.07:714][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.27-03.12.07:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.27-03.12.07:811][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.27-03.12.07:908][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.27-03.12.07:936][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.27-03.12.07:988][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.27-03.12.08:039][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.27-03.12.08:090][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.27-03.12.08:147][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.27-03.12.08:147][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.27-03.12.08:622][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.27-03.12.08:692][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/Cosmotron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.27-03.12.08:692][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cosmotron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.27-03.12.08:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Cosmotron/Documents/GitHub/VR_MultiplayerShootout/MultiplayerShootout/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.27-03.12.08:692][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.27-03.12.08:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Cosmotron/Documents/GitHub/VR_MultiplayerShootout/MultiplayerShootout/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.27-03.12.08:692][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.27-03.12.08:709][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.27-03.12.08:721][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cosmotron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.27-03.12.08:732][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.27-03.12.08:732][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.27-03.12.08:733][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.27-03.12.08:733][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.27-03.12.09:121][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.27-03.12.09:475][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.27-03.12.09:517][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.27-03.12.09:517][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.27-03.12.09:517][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.27-03.12.09:517][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.27-03.12.09:517][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.27-03.12.09:546][  0]LogNetVersion: MultiplayerShootout , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2187402621)
+[2018.01.27-03.12.09:662][  0]Warning: Missing opening '"' in string property value: ThirdParty/Steamworks)
+[2018.01.27-03.12.09:730][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.01.27-03.12.10:262][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.069833 seconds
+[2018.01.27-03.12.10:267][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.01.27-03.12.10:267][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.01.27-03.12.10:267][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.27-03.12.13:100][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.27-03.12.13:141][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.27-03.12.13:831][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.27-03.12.14:267][  0]SourceControl: Source control is disabled
+[2018.01.27-03.12.14:267][  0]SourceControl: Source control is disabled
+[2018.01.27-03.12.14:321][  0]SourceControl: Source control is disabled
+[2018.01.27-03.12.14:375][  0]SourceControl: Source control is disabled
+[2018.01.27-03.12.15:149][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.27-03.12.15:421][  0]LogOcInput: OculusInput pre-init called
+[2018.01.27-03.12.15:717][  0]LogEngine: Initializing Engine...
+[2018.01.27-03.12.15:769][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-25FB5BEE
+[2018.01.27-03.12.15:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.27-03.12.15:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.27-03.12.16:129][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.27-03.12.16:150][  0]LogInit: XAudio2 using 'HTC-VIVE-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.27-03.12.16:164][  0]LogInit: FAudioDevice initialized.
+[2018.01.27-03.12.16:231][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/Cosmotron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.27-03.12.16:245][  0]LogInit: Texture streaming: Enabled
+[2018.01.27-03.12.16:347][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.27-03.12.16:486][  0]LogInit: Transaction tracking system initialized
+[2018.01.27-03.12.16:809][  0]BlueprintLog: New page: Editor Load
+[2018.01.27-03.12.17:712][  0]LocalizationService: Localization service is disabled
+[2018.01.27-03.12.18:463][  0]LogConsoleResponse: Display: 
+[2018.01.27-03.12.18:654][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.27-03.12.18:654][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.27-03.12.18:654][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.27-03.12.19:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cosmotron/Documents/GitHub/VR_MultiplayerShootout/MultiplayerShootout/Content/' took 0.02s
+[2018.01.27-03.12.19:890][  0]SourceControl: Source control is disabled
+[2018.01.27-03.12.19:890][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Cosmotron/Documents/GitHub/VR_MultiplayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-03.12.19:890][  0]LightingResults: New page: Lighting Build
+[2018.01.27-03.12.19:934][  0]MapCheck: New page: Map Check
+[2018.01.27-03.12.19:934][  0]LightingResults: New page: Lighting Build
+[2018.01.27-03.12.20:620][  0]LogBlueprint: Warning: [Compiler BP_Projectile] Set Physics Angular Velocity  is deprecated; Use SetPhysicsAngularVelocityInDegrees instead
+[2018.01.27-03.12.20:699][  0]LogBlueprint: Warning: [Compiler BP_Projectile] [0018.69] Compile of BP_Projectile successful, but with 1 Warning(s) [in 107 ms] (/Game/Blueprints/BP_Projectile.BP_Projectile)
+[2018.01.27-03.12.21:191][  0]LogAIModule: Creating AISystem for world VR_Level01
+[2018.01.27-03.12.21:203][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-03.12.21:222][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-03.12.21:286][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.925ms to complete.
+[2018.01.27-03.12.21:286][  0]LogFileHelpers: Loading map 'VR_Level01' took 1.396
+[2018.01.27-03.12.21:483][  0]LogCollectionManager: Loaded 0 collections in 0.001562 seconds
+[2018.01.27-03.12.21:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cosmotron/Documents/GitHub/VR_MultiplayerShootout/MultiplayerShootout/Saved/Collections/' took 0.01s
+[2018.01.27-03.12.21:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cosmotron/Documents/GitHub/VR_MultiplayerShootout/MultiplayerShootout/Content/Developers/Cosmotron/Collections/' took 0.01s
+[2018.01.27-03.12.21:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cosmotron/Documents/GitHub/VR_MultiplayerShootout/MultiplayerShootout/Content/Collections/' took 0.01s
+[2018.01.27-03.12.21:564][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.27-03.12.21:572][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2364 classes and 521 folders.
+[2018.01.27-03.12.21:639][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.01.27-03.12.21:676][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.27-03.12.21:753][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.27-03.12.21:759][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.27-03.12.21:762][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.27-03.12.21:857][  0]LogRenderer: Reallocating scene render targets to support 1044x512 Format 10 NumSamples 1 (Frame:1).
+[2018.01.27-03.12.22:061][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.01.27-03.12.22:061][  0]LogLoad: (Engine Initialization) Total time: 20.05 seconds
+[2018.01.27-03.12.22:061][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.27-03.12.22:061][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.27-03.12.22:079][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.27-03.12.22:100][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.27-03.12.22:122][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-03.12.22:141][  1]LogAssetRegistry: Asset discovery search completed in 12.4327 seconds
+[2018.01.27-03.12.22:144][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.27-03.12.22:144][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2018.01.27-03.12.22:171][  1]LogStaticMesh: Allocated 496x129x64 distance field atlas = 7.8Mb, with 56 objects containing 3.2Mb backing data
+[2018.01.27-03.12.28:069][350]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-03.12.28:122][350]LogAIModule: Creating AISystem for world VR_MainMenuMap
+[2018.01.27-03.12.28:139][350]LightingResults: New page: Lighting Build
+[2018.01.27-03.12.28:140][350]LoadErrors: New page: Loading map: VR_MainMenuMap.umap
+[2018.01.27-03.12.28:141][350]MapCheck: New page: Map Check
+[2018.01.27-03.12.28:141][350]LightingResults: New page: Lighting Build
+[2018.01.27-03.12.28:246][350]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-03.12.28:293][350]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-03.12.28:367][350]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.017ms to complete.
+[2018.01.27-03.12.28:370][350]LogFileHelpers: Loading map 'VR_MainMenuMap' took 0.231
+[2018.01.27-03.12.29:892][439]LogTemp: Repeating last play command: VR Preview
+[2018.01.27-03.12.29:955][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap'
+[2018.01.27-03.12.29:956][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-03.12.29:956][439]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.01.27-03.12.29:956][439]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.01.27-03.12.29:957][439]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.01.27-03.12.29:957][439]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.01.27-03.12.29:957][439]LogModuleManager: Warning: No filename provided for module OnlineSubsystemSteam
+[2018.01.27-03.12.29:957][439]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/' was not found.
+[2018.01.27-03.12.29:969][439]PIE: New page: PIE session: VR_MainMenuMap (Jan 26, 2018, 5:12:29 PM)
+[2018.01.27-03.12.29:969][439]LogPlayLevel: Creating play world package: /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap
+[2018.01.27-03.12.29:977][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007417s)
+[2018.01.27-03.12.29:977][439]LogAIModule: Creating AISystem for world VR_MainMenuMap
+[2018.01.27-03.12.29:978][439]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2018.01.27-03.12.29:978][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap to /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap.VR_MainMenuMap (0.008525s)
+[2018.01.27-03.12.30:003][439]LogInit: XAudio2 using 'HTC-VIVE-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.27-03.12.30:011][439]LogInit: FAudioDevice initialized.
+[2018.01.27-03.12.30:115][439]LogLoad: Game class is 'VR_GameMode_C'
+[2018.01.27-03.12.30:122][439]LogWorld: Bringing World /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap.VR_MainMenuMap up for play (max tick rate 0) at 2018.01.26-22.12.30
+[2018.01.27-03.12.30:123][439]LogWorld: Bringing up level for play took: 0.003443
+[2018.01.27-03.12.30:200][439]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.01.27-03.12.30:202][439]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.27-03.12.30:202][439]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.27-03.12.30:202][439]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.27-03.12.30:203][439]LogScript: Warning: Accessed None trying to read property MotionController_R
+	VR_CharacterAnimBP_C /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_Character_C_0.CharacterMesh0.VR_CharacterAnimBP_C_0
+	Function /Game/Z_Folder/Blueprints/Character/VR_CharacterAnimBP.VR_CharacterAnimBP_C:ExecuteUbergraph_VR_CharacterAnimBP:0273
+[2018.01.27-03.12.30:203][439]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MotionController_R from function: 'ExecuteUbergraph_VR_CharacterAnimBP' from node: Set ControllerTransform_R in graph: EventGraph in object: VR_CharacterAnimBP with description: Accessed None trying to read property MotionController_R
+[2018.01.27-03.12.30:203][439]LogScript: Warning: Accessed None trying to read property MotionController_L
+	VR_CharacterAnimBP_C /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_Character_C_0.CharacterMesh0.VR_CharacterAnimBP_C_0
+	Function /Game/Z_Folder/Blueprints/Character/VR_CharacterAnimBP.VR_CharacterAnimBP_C:ExecuteUbergraph_VR_CharacterAnimBP:02D8
+[2018.01.27-03.12.30:203][439]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MotionController_L from function: 'ExecuteUbergraph_VR_CharacterAnimBP' from node: Set ControllerTransform_L in graph: EventGraph in object: VR_CharacterAnimBP with description: Accessed None trying to read property MotionController_L
+[2018.01.27-03.12.30:210][439]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.27-03.12.30:214][439]PIE: Play in editor start time for /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap 1.232
+[2018.01.27-03.12.30:215][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap'
+[2018.01.27-03.12.30:269][440]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:1).
+[2018.01.27-03.13.21:217][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap'
+[2018.01.27-03.13.21:396][988]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.01.27-03.13.21:396][988]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.01.27-03.13.21:397][988]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.01.27-03.13.21:397][988]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.01.27-03.13.21:397][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.01.27-03.13.21:397][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap'
+[2018.01.27-03.13.21:450][989]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.01.27-03.13.21:450][989]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.01.27-03.13.36:885][833]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.01.27-03.13.37:618][833]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.27-03.13.41:048][ 10]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.27-03.13.45:672][279]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.27-03.14.09:683][622]BlueprintLog: New page: Compile 3D_ServerList
+[2018.01.27-03.14.11:801][725]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-03.14.37:083][819]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.27-03.15.02:892][274]LogSlate: Took 0.023304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.27-03.15.19:207][160]BlueprintLog: New page: Compile 3D_ServerList
+[2018.01.27-03.16.00:876][500]BlueprintLog: New page: Compile VR_ServerList
+[2018.01.27-03.16.01:059][500]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_1:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.16.36:319][486]BlueprintLog: New page: Compile VR_ServerList
+[2018.01.27-03.16.36:495][486]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_1:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.16.42:340][808]Cmd: TRANSACTION UNDO
+[2018.01.27-03.16.42:340][808]LogEditorTransaction: Undo Move Widget
+[2018.01.27-03.16.44:018][879]BlueprintLog: New page: Compile VR_ServerList
+[2018.01.27-03.16.44:208][879]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_1:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.17.15:284][377]BlueprintLog: New page: Compile 3D_ServerList
+[2018.01.27-03.17.18:219][490]LogTemp: Repeating last play command: VR Preview
+[2018.01.27-03.17.18:265][490]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap'
+[2018.01.27-03.17.18:265][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-03.17.18:265][490]PIE: New page: PIE session: VR_MainMenuMap (Jan 26, 2018, 5:17:18 PM)
+[2018.01.27-03.17.18:266][490]LogPlayLevel: Creating play world package: /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap
+[2018.01.27-03.17.18:273][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006579s)
+[2018.01.27-03.17.18:273][490]LogAIModule: Creating AISystem for world VR_MainMenuMap
+[2018.01.27-03.17.18:273][490]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2018.01.27-03.17.18:274][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap to /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap.VR_MainMenuMap (0.007797s)
+[2018.01.27-03.17.18:313][490]LogInit: XAudio2 using 'HTC-VIVE-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.27-03.17.18:323][490]LogInit: FAudioDevice initialized.
+[2018.01.27-03.17.18:413][490]LogLoad: Game class is 'VR_GameMode_C'
+[2018.01.27-03.17.18:420][490]LogWorld: Bringing World /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap.VR_MainMenuMap up for play (max tick rate 0) at 2018.01.26-22.17.18
+[2018.01.27-03.17.18:421][490]LogWorld: Bringing up level for play took: 0.003147
+[2018.01.27-03.17.18:434][490]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.27-03.17.18:434][490]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.01.27-03.17.18:434][490]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.01.27-03.17.18:434][490]LogScript: Warning: Accessed None trying to read property MotionController_R
+	VR_CharacterAnimBP_C /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_Character_C_0.CharacterMesh0.VR_CharacterAnimBP_C_0
+	Function /Game/Z_Folder/Blueprints/Character/VR_CharacterAnimBP.VR_CharacterAnimBP_C:ExecuteUbergraph_VR_CharacterAnimBP:0273
+[2018.01.27-03.17.18:435][490]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MotionController_R from function: 'ExecuteUbergraph_VR_CharacterAnimBP' from node: Set ControllerTransform_R in graph: EventGraph in object: VR_CharacterAnimBP with description: Accessed None trying to read property MotionController_R
+[2018.01.27-03.17.18:435][490]LogScript: Warning: Accessed None trying to read property MotionController_L
+	VR_CharacterAnimBP_C /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_Character_C_0.CharacterMesh0.VR_CharacterAnimBP_C_0
+	Function /Game/Z_Folder/Blueprints/Character/VR_CharacterAnimBP.VR_CharacterAnimBP_C:ExecuteUbergraph_VR_CharacterAnimBP:02D8
+[2018.01.27-03.17.18:435][490]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MotionController_L from function: 'ExecuteUbergraph_VR_CharacterAnimBP' from node: Set ControllerTransform_L in graph: EventGraph in object: VR_CharacterAnimBP with description: Accessed None trying to read property MotionController_L
+[2018.01.27-03.17.18:438][490]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.01.27-03.17.18:443][490]PIE: Play in editor start time for /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_MainMenuMap -0.54
+[2018.01.27-03.17.18:443][490]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap'
+[2018.01.27-03.17.33:766][850]LogInit: WinSock: I am DESKTOP-TVE1Q8K (10.108.83.83:0)
+[2018.01.27-03.17.43:445][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap'
+[2018.01.27-03.17.43:635][713]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.01.27-03.17.43:635][713]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.01.27-03.17.43:636][713]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.01.27-03.17.43:636][713]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.01.27-03.17.43:636][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.01.27-03.17.43:637][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap:PersistentLevel.VR_MainMenuMap'
+[2018.01.27-03.17.43:725][714]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.01.27-03.17.43:725][714]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.01.27-03.19.28:767][476]BlueprintLog: New page: Compile 3D_ServerList
+[2018.01.27-03.19.32:067][626]BlueprintLog: New page: Compile VR_ServerList
+[2018.01.27-03.19.32:256][626]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_1:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.20.18:244][243]BlueprintLog: New page: Compile VR_ServerList
+[2018.01.27-03.20.18:424][243]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_1:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.21.09:667][720]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.27-03.21.25:942][895]BlueprintLog: New page: Compile 3D_ServerList
+[2018.01.27-03.21.46:907][914]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.27-03.22.00:868][937]BlueprintLog: New page: Compile 3D_ServerList
+[2018.01.27-03.22.32:007][788]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_6' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:009][788]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:011][788]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_3' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:013][788]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_5' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:028][789]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_7' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:031][789]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_9' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:042][790]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_11' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:045][790]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_13' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:067][791]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_15' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:069][791]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_17' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:071][791]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_19' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:072][791]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_21' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:075][791]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_23' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:095][792]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_25' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:097][792]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_27' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:118][793]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_29' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:119][793]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_31' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:122][793]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_33' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:144][794]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_35' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:146][794]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_37' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:149][794]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_39' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:168][795]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_41' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:171][795]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_43' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:193][796]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_45' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:196][796]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_47' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:218][797]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_49' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:222][797]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_51' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:244][798]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_53' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:292][800]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_55' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:293][800]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_57' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:295][800]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_59' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:304][801]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_61' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:306][801]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_63' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:330][802]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_65' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:333][802]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_67' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:356][803]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_69' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:358][803]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_71' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:360][803]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_73' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:381][804]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_75' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:470][811]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_77' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:473][811]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_79' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:480][812]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_81' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:483][812]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_83' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:507][813]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_85' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:509][813]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_87' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:534][814]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_89' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:537][814]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_91' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:560][815]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_93' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:563][815]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_95' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:586][816]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_97' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:588][816]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_99' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:589][816]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_101' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:591][816]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_103' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:592][816]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_105' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:594][816]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_107' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:614][817]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_109' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:617][817]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_111' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:640][818]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_113' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:643][818]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_115' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.32:666][819]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_117' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:508][916]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_119' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:510][916]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_121' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:518][917]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_123' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:521][917]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_125' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:545][918]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_127' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:548][918]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_129' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:571][919]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_131' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:654][925]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_133' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:657][925]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_135' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:665][926]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_137' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:667][926]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_139' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:691][927]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_141' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:832][940]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_143' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:834][940]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_145' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:844][941]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_147' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:869][942]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_149' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:872][942]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_151' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:896][943]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_153' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:898][943]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_155' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:922][944]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_157' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:925][944]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_159' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.33:948][945]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_161' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.22.35:271][ 46]BlueprintLog: New page: Compile VR_ServerList
+[2018.01.27-03.22.38:125][144]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.27-03.22.44:517][514]BlueprintLog: New page: Compile 3D_ServerList
+[2018.01.27-03.23.03:178][ 24]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_6' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:181][ 24]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_165' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:190][ 25]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_167' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:193][ 25]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_169' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:254][ 26]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_171' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:256][ 26]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_173' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:314][ 27]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_175' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:317][ 27]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_177' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:374][ 28]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_179' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:377][ 28]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_181' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:434][ 29]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_183' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:437][ 29]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_185' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:495][ 30]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_187' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:863][ 62]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_189' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:865][ 62]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_191' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:873][ 63]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_193' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:933][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_195' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:935][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_197' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:937][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_199' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:995][ 65]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_201' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.03:998][ 65]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_203' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:054][ 66]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_205' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:057][ 66]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_207' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:114][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_209' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:236][ 69]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_211' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:238][ 69]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_213' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:247][ 70]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_215' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:474][ 85]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_217' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:476][ 85]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_219' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:485][ 86]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_221' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:544][ 87]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_223' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:547][ 87]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_225' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:603][ 88]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_227' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:606][ 88]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_229' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:665][ 89]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_231' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:814][ 95]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_233' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:817][ 95]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_235' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:825][ 96]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_237' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:954][ 99]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_239' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:956][ 99]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_241' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.04:965][100]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_243' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:023][101]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_245' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:026][101]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_247' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:088][102]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_249' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:322][118]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_251' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:324][118]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_253' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:332][119]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_255' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:335][119]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_257' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:393][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_259' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:394][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_261' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:396][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_263' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:398][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_265' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:453][121]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_267' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:455][121]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_269' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.05:515][122]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_271' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.11:177][655]BlueprintLog: New page: Compile VR_ServerList
+[2018.01.27-03.23.11:370][655]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.World_1:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.01.27-03.23.36:515][  4]Cmd: TRANSACTION UNDO
+[2018.01.27-03.23.36:515][  4]LogEditorTransaction: Undo Set Vector Property
+[2018.01.27-03.23.41:638][  4]Cmd: TRANSACTION UNDO
+[2018.01.27-03.23.41:638][  4]LogEditorTransaction: Undo Move Widget
+[2018.01.27-03.23.41:669][  4]Cmd: TRANSACTION UNDO
+[2018.01.27-03.23.41:669][  4]LogEditorTransaction: Undo Resize Widget
+[2018.01.27-03.23.43:203][173]LogEditorTransaction: Undo Edit Widget Class
+[2018.01.27-03.23.44:457][212]LogEditorTransaction: Undo Move Widget
+[2018.01.27-03.23.48:047][322]LogEditorTransaction: Undo Resize Widget
+[2018.01.27-03.23.51:710][400]BlueprintLog: New page: Compile VR_ServerList
+[2018.01.27-03.23.57:042][761]BlueprintLog: New page: Compile 3D_ServerList
+[2018.01.27-03.23.57:047][761]LogWorld: --- Actors Currently in /Engine/Transient.World_1:PersistentLevel ---
+[2018.01.27-03.23.57:050][761]LogWorld:   /Engine/Transient.World_1:PersistentLevel.WorldSettings
+[2018.01.27-03.23.57:050][761]LogWorld:   /Engine/Transient.World_1:PersistentLevel.Brush_1
+[2018.01.27-03.23.57:050][761]LogWorld:   /Engine/Transient.World_1:PersistentLevel.DefaultPhysicsVolume_1
+[2018.01.27-03.23.57:050][761]LogWorld:   /Engine/Transient.World_1:PersistentLevel.ParticleEventManager_1
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:050][761]LogWorld:   NONE
+[2018.01.27-03.23.57:051][761]LogWorld:   /Engine/Transient.World_1:PersistentLevel.3D_ServerList_C_7
+[2018.01.27-03.23.57:051][761]LogWorld:   /Engine/Transient.World_1:PersistentLevel.3D_ServerList_C_13
+[2018.01.27-03.23.57:210][761]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.159 s
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: === Handled ensure: ===
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: 
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1544]
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: Could not remove actor /Engine/Transient.World_1:PersistentLevel.REINST_3D_ServerList_C_4 from world (check level is /Engine/Transient.World_1:PersistentLevel)
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: Stack: 
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000DC142786 UE4Editor-Core.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000DBEE123A UE4Editor-Core.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000DBEFB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D386DF86 UE4Editor-Engine.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D2F08C15 UE4Editor-Engine.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D2F0ED63 UE4Editor-Engine.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D7A2B7B5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D7A2D11D UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D79EE7DF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D1CB187F UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D1C51704 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D79F633E UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D1C51133 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D1CA0FC1 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D1CA5D26 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9D67BBF UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9E6D3A2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9DC76D2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9DC8C29 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9E48C25 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9F02B27 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9F2EA04 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9D45EFC UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9D18095 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9DB28A7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9D9B092 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:210][761]LogOutputDevice: Error: [Callstack] 0x00000000D9D8D902 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000EC6FE54B UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000EC6F1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000EC7003EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000EC6ED5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x000000001C4DB85D USER32.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x000000001C4DB1EF USER32.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000EC701516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000A8C750C8 UE4Editor.exe!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000A8C85430 UE4Editor.exe!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000A8C854AA UE4Editor.exe!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000A8C92379 UE4Editor.exe!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x00000000A8C93D57 UE4Editor.exe!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x000000001C671FE4 KERNEL32.DLL!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: [Callstack] 0x000000001D7AEFB1 ntdll.dll!UnknownFunction []
+[2018.01.27-03.23.57:211][761]LogOutputDevice: Error: 
+[2018.01.27-03.23.57:219][761]LogStats:                SubmitErrorReport -  0.000 s
