@@ -5,3 +5,4 @@ Andres
 Edward R. Gonzalez
 Joshio "Yoshi" Tandron
 Dewey Mowris
+Daniel Barimo
