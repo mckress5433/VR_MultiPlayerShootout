@@ -1,8 +1,8 @@
-[# VR_MultiPlayerShootout
+# VR_MultiPlayerShootout
 Old western style shootout game for VR, built in UE4.
 
 Andres
 Edward R. Gonzalez
 Joshio "Yoshi" Tandron
 Dewey Mowris
-Daniel Barimo](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+Daniel Barimo
