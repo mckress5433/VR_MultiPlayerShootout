@@ -382,3 +382,104 @@ LogInit: Object subsystem initialized
 [2018.03.03-21.55.12:666][288]LogSavePackage: Save=473.26ms
 [2018.03.03-21.55.12:666][288]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Interaction_Hand99FABA1C48128123F54D249AA4049A13.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/Interaction_Hand.uasset'
 [2018.03.03-21.55.12:672][288]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/Interaction_Hand.uasset
+[2018.03.03-22.02.13:918][138]LogHttp: Warning: 000002A98AAE1000: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.02.13:918][138]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 0 (Connection 7 seems to be dead!)
+[2018.03.03-22.02.13:918][138]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 1 (Closing connection 7)
+[2018.03.03-22.02.13:918][138]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 2 (  Trying 10.0.0.1...)
+[2018.03.03-22.02.13:918][138]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 3 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.02.13:918][138]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 4 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.02.13:919][138]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 5 (Closing connection 8)
+[2018.03.03-22.04.35:253][562]LogHttp: Warning: 000002A98AAE1000: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.04.35:254][562]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.04.35:254][562]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.04.35:254][562]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.04.35:254][562]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.04.35:254][562]LogHttp: Warning: 000002A98AAE1000: libcurl info message cache 4 (Closing connection 9)
+[2018.03.03-22.06.56:310][274]LogHttp: Warning: 000002A98AADD600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.06.56:310][274]LogHttp: Warning: 000002A98AADD600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.06.56:311][274]LogHttp: Warning: 000002A98AADD600: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.06.56:311][274]LogHttp: Warning: 000002A98AADD600: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.06.56:311][274]LogHttp: Warning: 000002A98AADD600: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.06.56:311][274]LogHttp: Warning: 000002A98AADD600: libcurl info message cache 4 (Closing connection 10)
+[2018.03.03-22.09.17:343][734]LogHttp: Warning: 000002A98AADC880: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.09.17:343][734]LogHttp: Warning: 000002A98AADC880: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.09.17:343][734]LogHttp: Warning: 000002A98AADC880: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.09.17:343][734]LogHttp: Warning: 000002A98AADC880: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.09.17:343][734]LogHttp: Warning: 000002A98AADC880: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.09.17:343][734]LogHttp: Warning: 000002A98AADC880: libcurl info message cache 4 (Closing connection 11)
+[2018.03.03-22.11.38:384][195]LogHttp: Warning: 000002A9108FF400: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.11.38:384][195]LogHttp: Warning: 000002A9108FF400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.11.38:384][195]LogHttp: Warning: 000002A9108FF400: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.11.38:384][195]LogHttp: Warning: 000002A9108FF400: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.11.38:384][195]LogHttp: Warning: 000002A9108FF400: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.11.38:384][195]LogHttp: Warning: 000002A9108FF400: libcurl info message cache 4 (Closing connection 12)
+[2018.03.03-22.12.03:108][664]LogRenderer: Reallocating scene render targets to support 1048x616 Format 10 NumSamples 1 (Frame:1).
+[2018.03.03-22.12.47:520][249]BlueprintLog: New page: Compile VR_Character
+[2018.03.03-22.13.06:587][357]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.03-22.13.15:667][897]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.021
+[2018.03.03-22.13.15:670][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character] ([1] browsable assets)...
+[2018.03.03-22.13.15:685][897]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Z_Folder/Blueprints/VR_Character/VR_Character.VR_Character]
+[2018.03.03-22.13.15:685][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character]
+[2018.03.03-22.13.15:943][897]LogSavePackage: Save=225.14ms
+[2018.03.03-22.13.15:943][897]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Character_Auto1B123A0BA4B3894DB783689B139BB9D01.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto1.uasset'
+[2018.03.03-22.13.15:948][897]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto1.uasset
+[2018.03.03-22.13.15:948][897]LogFileHelpers: Auto-saving content packages took 0.280
+[2018.03.03-22.13.59:454][504]LogHttp: Warning: 000002A92AC55900: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.13.59:454][504]LogHttp: Warning: 000002A92AC55900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.13.59:454][504]LogHttp: Warning: 000002A92AC55900: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.13.59:454][504]LogHttp: Warning: 000002A92AC55900: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.13.59:454][504]LogHttp: Warning: 000002A92AC55900: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.13.59:454][504]LogHttp: Warning: 000002A92AC55900: libcurl info message cache 4 (Closing connection 13)
+[2018.03.03-22.15.20:326][238]LogSavePackage: Save=198.99ms
+[2018.03.03-22.15.20:326][238]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Character4FD0C0104BCB20B2CD4C3FBFFD551FBD.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.03-22.15.20:330][238]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.03-22.16.20:804][692]LogHttp: Warning: 000002A92A90CA00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.16.20:804][692]LogHttp: Warning: 000002A92A90CA00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.16.20:804][692]LogHttp: Warning: 000002A92A90CA00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.16.20:804][692]LogHttp: Warning: 000002A92A90CA00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.16.20:804][692]LogHttp: Warning: 000002A92A90CA00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.16.20:804][692]LogHttp: Warning: 000002A92A90CA00: libcurl info message cache 4 (Closing connection 14)
+[2018.03.03-22.18.41:855][913]LogHttp: Warning: 000002A99C05EC80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.18.41:855][913]LogHttp: Warning: 000002A99C05EC80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.18.41:855][913]LogHttp: Warning: 000002A99C05EC80: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.18.41:855][913]LogHttp: Warning: 000002A99C05EC80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.18.41:855][913]LogHttp: Warning: 000002A99C05EC80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.18.41:855][913]LogHttp: Warning: 000002A99C05EC80: libcurl info message cache 4 (Closing connection 15)
+[2018.03.03-22.21.02:881][264]LogHttp: Warning: 000002A9A24C2F80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.21.02:881][264]LogHttp: Warning: 000002A9A24C2F80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.21.02:881][264]LogHttp: Warning: 000002A9A24C2F80: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.21.02:881][264]LogHttp: Warning: 000002A9A24C2F80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.21.02:881][264]LogHttp: Warning: 000002A9A24C2F80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.21.02:881][264]LogHttp: Warning: 000002A9A24C2F80: libcurl info message cache 4 (Closing connection 16)
+[2018.03.03-22.23.23:936][572]LogHttp: Warning: 000002A9C1794280: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.23.23:936][572]LogHttp: Warning: 000002A9C1794280: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.23.23:936][572]LogHttp: Warning: 000002A9C1794280: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.23.23:936][572]LogHttp: Warning: 000002A9C1794280: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.23.23:936][572]LogHttp: Warning: 000002A9C1794280: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.23.23:936][572]LogHttp: Warning: 000002A9C1794280: libcurl info message cache 4 (Closing connection 17)
+[2018.03.03-22.25.44:972][937]LogHttp: Warning: 000002A9C9A5EC80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.25.44:972][937]LogHttp: Warning: 000002A9C9A5EC80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.25.44:972][937]LogHttp: Warning: 000002A9C9A5EC80: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.25.44:973][937]LogHttp: Warning: 000002A9C9A5EC80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.25.44:973][937]LogHttp: Warning: 000002A9C9A5EC80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.25.44:973][937]LogHttp: Warning: 000002A9C9A5EC80: libcurl info message cache 4 (Closing connection 18)
+[2018.03.03-22.28.06:011][340]LogHttp: Warning: 000002A9A03AA080: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.03-22.28.06:011][340]LogHttp: Warning: 000002A9A03AA080: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.03-22.28.06:011][340]LogHttp: Warning: 000002A9A03AA080: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.03-22.28.06:011][340]LogHttp: Warning: 000002A9A03AA080: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.03-22.28.06:011][340]LogHttp: Warning: 000002A9A03AA080: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.03-22.28.06:011][340]LogHttp: Warning: 000002A9A03AA080: libcurl info message cache 4 (Closing connection 19)
+[2018.03.03-22.28.07:420][424]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.03-22.28.28:253][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.03-22.28.29:284][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.03-22.28.30:249][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.03-22.28.31:184][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.03-22.28.38:549][147]LogSavePackage: Save=204.89ms
+[2018.03.03-22.28.38:549][147]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Character5022B6FD4FB36AC746B7F3ABD1CC5ED2.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.03-22.28.38:555][147]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.03-22.28.38:711][147]LogSavePackage: Save=122.28ms
+[2018.03.03-22.28.38:711][147]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode5A63FFF94C996586D1532593D6CF33A3.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.03-22.28.38:715][147]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.03-22.28.38:816][147]LogSavePackage: Save=65.07ms
+[2018.03.03-22.28.38:816][147]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_PlayerControllerB84BFE43477F479B72A6FEA8311E270F.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_PlayerController.uasset'
+[2018.03.03-22.28.38:823][147]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_PlayerController.uasset
