@@ -1,4 +1,4 @@
-﻿Log file open, 03/03/18 15:37:17
+﻿Log file open, 03/03/18 19:08:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MultiplayerShootout
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1560501755) SRandInit(1560501755).
+LogInit: Display: RandInit(-1814390845) SRandInit(-1814390845).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.202159
+LogStats: Stats thread started at 0.197823
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -167,7 +167,7 @@ LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogModuleManager: Warning: No filename provided for module OnlineSubsystemSteam
-LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'E:/Development/Epic Games/UE_4.18/Engine/Binaries/Win64/' was not found.
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/' was not found.
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogHMD: Failed initializing OVRPlugin 1.19.0
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
@@ -195,368 +195,1148 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  -game
-LogInit: Base directory: E:/Development/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.03-20.37.20:413][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.03-20.37.20:413][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.03-20.37.20:431][  0]LogInit: Computer: EDSREDDESKTOP
-[2018.03.03-20.37.20:431][  0]LogInit: User: Edward
-[2018.03.03-20.37.20:431][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.03-20.37.20:431][  0]LogInit: High frequency timer resolution =4.101656 MHz
-[2018.03.03-20.37.20:431][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.03.03-20.37.20:431][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.03-20.37.20:431][  0]LogMemory: Process Physical Memory: 278.52 MB used, 278.52 MB peak
-[2018.03.03-20.37.20:431][  0]LogMemory: Process Virtual Memory: 276.54 MB used, 276.54 MB peak
-[2018.03.03-20.37.20:431][  0]LogMemory: Physical Memory: 4322.89 MB used,  3817.38 MB free, 8140.26 MB total
-[2018.03.03-20.37.20:431][  0]LogMemory: Virtual Memory: 702.97 MB used,  3817.38 MB free, 134217728.00 MB total
-[2018.03.03-20.37.20:607][  0]LogInit: Using OS detected language (en-US).
-[2018.03.03-20.37.20:607][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.03-20.37.20:611][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.03-20.37.21:203][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.03-20.37.21:222][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
-[2018.03.03-20.37.21:222][  0]LogD3D11RHI:       8168/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.03.03-20.37.21:224][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.03-20.37.21:224][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.03-20.37.21:224][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.03-20.37.21:231][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.03-20.37.21:231][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.03-20.37.21:231][  0]LogWindows: EnumDisplayDevices:
-[2018.03.03-20.37.21:232][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
-[2018.03.03-20.37.21:232][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:232][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:233][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:233][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:234][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:234][  0]LogWindows:    6. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:234][  0]LogWindows:    7. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:235][  0]LogWindows:    8. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:235][  0]LogWindows:    9. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:235][  0]LogWindows:    10. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:236][  0]LogWindows:    11. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:236][  0]LogWindows:    12. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:237][  0]LogWindows:    13. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:237][  0]LogWindows:    14. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:237][  0]LogWindows:    15. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.03.03-20.37.21:238][  0]LogWindows: DebugString: FoundDriverCount:16 
-[2018.03.03-20.37.21:238][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
-[2018.03.03-20.37.21:238][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.2.2 (internal:23.20.15017.4003, unified:23.20.15017.4003)
-[2018.03.03-20.37.21:238][  0]LogD3D11RHI:      Driver Date: 2-6-2018
-[2018.03.03-20.37.21:238][  0]LogRHI: Texture pool is 5717 MB (70% of 8168 MB)
-[2018.03.03-20.37.21:283][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.03-20.37.21:295][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.03.03-20.37.21:296][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (C:/Users/Edward/Desktop/MultiplayerShootout/Intermediate/Shaders/WorkingDirectory/5796/).
-[2018.03.03-20.37.21:297][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Edward/AppData/Local/Temp/UnrealShaderWorkingDir/D8FA7CA643F4B2AEACF50D8326982628/'.
-[2018.03.03-20.37.21:297][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.03-20.37.22:521][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.03-20.37.22:587][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.03-20.37.22:654][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.03-20.37.22:710][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.03-20.37.22:710][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.03-20.37.23:310][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.03-20.37.23:472][  0]LogDerivedDataCache: Loaded boot cache 0.16s 78MB C:/Users/Edward/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.03-20.37.23:472][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Edward/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.03-20.37.23:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Edward/Desktop/MultiplayerShootout/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.03-20.37.23:472][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.03-20.37.23:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Edward/Desktop/MultiplayerShootout/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.03-20.37.23:472][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.03-20.37.23:493][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.03-20.37.23:507][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Edward/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.03-20.37.23:524][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.03-20.37.23:524][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.03-20.37.23:525][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.03-20.37.23:525][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.03-20.37.23:912][  0]LogAssetRegistry: FAssetRegistry took 0.0065 seconds to start up
-[2018.03.03-20.37.23:994][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.081227 seconds
-[2018.03.03-20.37.24:124][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.03-20.37.24:527][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.03-20.37.24:579][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.03-20.37.24:579][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.03-20.37.24:579][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.03-20.37.24:579][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.03-20.37.24:579][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.03-20.37.24:614][  0]LogNetVersion: MultiplayerShootout , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2187402621)
-[2018.03.03-20.37.24:697][  0]Warning: Missing opening '"' in string property value: ThirdParty/Steamworks)
-[2018.03.03-20.37.26:904][  0]LogMoviePlayer: Initializing movie player
-[2018.03.03-20.37.26:971][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Google Japanese Input).
-[2018.03.03-20.37.27:313][  0]LogCollectionManager: Loaded 0 collections in 0.003364 seconds
-[2018.03.03-20.37.27:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Edward/Desktop/MultiplayerShootout/Saved/Collections/' took 0.01s
-[2018.03.03-20.37.27:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Edward/Desktop/MultiplayerShootout/Content/Developers/Edward/Collections/' took 0.01s
-[2018.03.03-20.37.27:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Edward/Desktop/MultiplayerShootout/Content/Collections/' took 0.01s
-[2018.03.03-20.37.27:373][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.03-20.37.27:373][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000100 seconds (updated 0 objects)
-[2018.03.03-20.37.28:176][  0]SourceControl: Source control is disabled
-[2018.03.03-20.37.28:176][  0]SourceControl: Source control is disabled
-[2018.03.03-20.37.28:241][  0]SourceControl: Source control is disabled
-[2018.03.03-20.37.28:686][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.03-20.37.29:026][  0]LogOcInput: OculusInput pre-init called
-[2018.03.03-20.37.29:173][  0]LogUObjectArray: 38923 objects as part of root set at end of initial load.
-[2018.03.03-20.37.29:173][  0]LogUObjectAllocator: 8349192 out of 0 bytes used by permanent object pool.
-[2018.03.03-20.37.29:174][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.03-20.37.29:304][  0]LogEngine: Initializing Engine...
-[2018.03.03-20.37.33:949][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-F45D3F18
-[2018.03.03-20.37.34:239][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.03-20.37.34:239][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.03-20.37.34:311][  0]LogInit: XAudio2 using '6 - HTC-VIVE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.03-20.37.34:333][  0]LogInit: FAudioDevice initialized.
-[2018.03.03-20.37.34:528][  0]LogDerivedDataCache: Saved boot cache 0.18s 78MB C:/Users/Edward/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.03-20.37.34:568][  0]LogInit: Texture streaming: Enabled
-[2018.03.03-20.37.34:588][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.03-20.37.34:993][  0]LogConsoleManager: Warning: Setting the console variable 'r.VSync' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
-[2018.03.03-20.37.35:397][  0]LogInit: Display: Game Engine Initialized.
-[2018.03.03-20.37.35:397][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.03-20.37.35:635][  0]LogInit: Display: Starting Game.
-[2018.03.03-20.37.35:635][  0]LogNet: Browse: /Game/Z_Folder/Blueprints/Map/VR_MainMenuMap?Name=Player
-[2018.03.03-20.37.35:636][  0]LogLoad: LoadMap: /Game/Z_Folder/Blueprints/Map/VR_MainMenuMap?Name=Player
-[2018.03.03-20.37.36:073][  0]LogBlueprint: Warning: [Compiler BP_Projectile] Set Physics Angular Velocity  is deprecated; Use SetPhysicsAngularVelocityInDegrees instead
-[2018.03.03-20.37.36:244][  0]LogBlueprint: Warning: [Compiler BP_Projectile] [0019.61] Compile of BP_Projectile successful, but with 1 Warning(s) [in 233 ms] (/Game/Blueprints/BP_Projectile.BP_Projectile)
-[2018.03.03-20.37.36:734][  0]LogAIModule: Creating AISystem for world VR_MainMenuMap
-[2018.03.03-20.37.36:734][  0]LogLoad: Game class is 'VR_GameMode_C'
-[2018.03.03-20.37.36:741][  0]LogWorld: Bringing World /Game/Z_Folder/Blueprints/Map/VR_MainMenuMap.VR_MainMenuMap up for play (max tick rate 0) at 2018.03.03-15.37.36
-[2018.03.03-20.37.36:742][  0]LogWorld: Bringing up level for play took: 0.005109
-[2018.03.03-20.37.36:743][  0]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2018.03.03-20.37.36:768][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.03.03-20.37.36:768][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.03.03-20.37.36:768][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.03.03-20.37.36:772][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.03.03-20.37.36:772][  0]LogLoad: Took 1.136629 seconds to LoadMap(/Game/Z_Folder/Blueprints/Map/VR_MainMenuMap)
-[2018.03.03-20.37.37:020][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
-[2018.03.03-20.37.37:020][  0]LogLoad: (Engine Initialization) Total time: 20.39 seconds
-[2018.03.03-20.37.37:020][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.03-20.37.37:021][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.03-20.37.37:079][  0]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:2).
-[2018.03.03-20.37.37:163][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.03-20.37.37:170][  1]LogStaticMesh: Allocated 497x64x64 distance field atlas = 3.9Mb, with 53 objects containing 3.0Mb backing data
-[2018.03.03-20.37.42:038][415]LogNetVersion: MultiplayerShootout 1.0.0.0, NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 508993912)
-[2018.03.03-20.37.42:042][415]LogInit: WinSock: I am EdsRedDesktop (192.168.1.112:0)
-[2018.03.03-20.37.42:138][415]LogPackageName: SearchForPackageOnDisk took   0.095s to resolve VR_Level01.umap.
-[2018.03.03-20.37.42:140][416]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2018.03.03-20.37.42:140][416]LogGameState: Match State Changed from InProgress to LeavingMap
-[2018.03.03-20.37.42:234][416]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve VR_Level01.umap.
-[2018.03.03-20.37.42:234][416]LogNet: Browse: /Game/Z_Folder/Blueprints/Map/VR_Level01?listen
-[2018.03.03-20.37.42:235][416]LogLoad: LoadMap: /Game/Z_Folder/Blueprints/Map/VR_Level01?listen
-[2018.03.03-20.37.42:681][416]LogBlueprint: Warning: [Compiler BP_Projectile] Set Physics Angular Velocity  is deprecated; Use SetPhysicsAngularVelocityInDegrees instead
-[2018.03.03-20.37.42:847][416]LogBlueprint: Warning: [Compiler BP_Projectile] [0026.21] Compile of BP_Projectile successful, but with 1 Warning(s) [in 228 ms] (/Game/Blueprints/BP_Projectile.BP_Projectile)
-[2018.03.03-20.37.43:161][416]LogAIModule: Creating AISystem for world VR_Level01
-[2018.03.03-20.37.43:162][416]LogLoad: Game class is 'VR_GameMode_C'
-[2018.03.03-20.37.43:162][416]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.03-20.37.43:162][416]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2018.03.03-20.37.43:162][416]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.03.03-20.37.43:162][416]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.03.03-20.37.43:163][416]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.03-20.37.43:163][416]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2018.03.03-20.37.43:170][416]LogWorld: Bringing World /Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01 up for play (max tick rate 0) at 2018.03.03-15.37.43
-[2018.03.03-20.37.43:170][416]LogWorld: Bringing up level for play took: 0.004797
-[2018.03.03-20.37.43:170][416]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.03-20.37.43:171][416]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2018.03.03-20.37.43:172][416]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.03.03-20.37.43:172][416]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.03.03-20.37.43:172][416]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.03.03-20.37.43:175][416]LogScript: Warning: Accessed None trying to read property 3D_LoadingWidget
-	VR_GameInstance_C /Engine/Transient.GameEngine_0:VR_GameInstance_C_0
-	Function /Game/Z_Folder/Blueprints/VR_GameInstance.VR_GameInstance_C:Start Playing State:041C
-[2018.03.03-20.37.43:175][416]LogScript: Warning: Script call stack:
-	Function /Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C:ReceiveBeginPlay
-	Function /Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C:ExecuteUbergraph_VR_Level01
-	Function /Game/Z_Folder/Blueprints/VR_GameInstance.VR_GameInstance_C:Start Playing State
-
-[2018.03.03-20.37.43:175][416]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.03.03-20.37.43:176][416]LogLoad: Took 0.940908 seconds to LoadMap(/Game/Z_Folder/Blueprints/Map/VR_Level01)
-[2018.03.03-20.37.51:365][ 69]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.44:56434
-[2018.03.03-20.37.51:365][ 69]LogHandshake: SendConnectChallenge. Timestamp: 9.327427, Cookie: 098141069080023218066002080092180142081244101159147009254031
-[2018.03.03-20.37.51:376][ 70]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.44:56434
-[2018.03.03-20.37.51:376][ 70]LogHandshake: SendChallengeAck. InCookie: 098141069080023218066002080092180142081244101159147009254031
-[2018.03.03-20.37.51:376][ 70]LogNet: Server accepting post-challenge connection from: 192.168.1.44:56434
-[2018.03.03-20.37.51:376][ 70]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.03.03-20.37.51:376][ 70]LogNet: NotifyAcceptedConnection: Name: VR_Level01, TimeStamp: 03/03/18 15:37:51, [UNetConnection] RemoteAddr: 192.168.1.44:56434, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2018.03.03-20.37.51:376][ 70]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.1.44:56434, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2018.03.03-20.37.51:386][ 71]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01: Accepted
-[2018.03.03-20.37.51:387][ 71]LogNet: Remote platform little endian=1
-[2018.03.03-20.37.51:387][ 71]LogNet: This platform little endian=1
-[2018.03.03-20.37.51:398][ 72]LogNet: Login request: /Game/Z_Folder/Blueprints/Map/VR_MainMenuMap?Name=DESKTOP-TVE1Q8K-6ED896644F76866088920C8CC3CF66B8 userId: DESKTOP-TVE1Q8K-6ED896644F76866088920C8CC3CF66B8
-[2018.03.03-20.37.51:409][ 73]LogNet: Client netspeed is 10000
-[2018.03.03-20.37.52:304][118]LogNet: Join request: /Game/Z_Folder/Blueprints/Map/VR_MainMenuMap?Name=DESKTOP-TVE1Q8K-6ED896644F76866088920C8CC3CF66B8?SplitscreenCount=1
-[2018.03.03-20.37.52:305][118]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.03-20.37.52:306][118]LogNet: Join succeeded: DESKTOP-TVE1Q8K-6ED8
-[2018.03.03-20.37.52:393][122]LogNet: Server connection received: ActorChannelFailure
-[2018.03.03-20.38.11:506][486]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Google Japanese Input).
-[2018.03.03-20.38.11:512][486]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Google Japanese Input).
-[2018.03.03-20.38.11:517][486]LogEngine: All Windows Closed
-[2018.03.03-20.38.11:517][486]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.03.03-20.38.11:524][487]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2018.03.03-20.38.11:524][487]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2018.03.03-20.38.11:524][487]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 192.168.1.44:56434, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: VR_PlayerController_C_1, Owner: VR_PlayerController_C_1
-[2018.03.03-20.38.11:524][487]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.44:56434, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: VR_PlayerController_C_1, Owner: VR_PlayerController_C_1, Channels: 12, Time: 2018.03.03-20.38.11
-[2018.03.03-20.38.11:524][487]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.44:56434, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: VR_PlayerController_C_1, Owner: VR_PlayerController_C_1
-[2018.03.03-20.38.11:525][487]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2018.03.03-20.38.11:989][487]LogExit: Preparing to exit.
-[2018.03.03-20.38.11:989][487]LogMoviePlayer: Shutting down movie player
-[2018.03.03-20.38.12:058][487]LogExit: Game engine shut down
-[2018.03.03-20.38.12:145][487]LogExit: Object subsystem successfully closed.
-[2018.03.03-20.38.12:160][487]LogD3D11RHI: Shutdown
-[2018.03.03-20.38.12:160][487]LogD3D11RHI: CleanupD3DDevice
-[2018.03.03-20.38.12:163][487]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (315)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module SequenceRecorder (313)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module AutomationController (311)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module AutomationWorker (309)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module Voice (307)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module AIModule (305)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module GameplayDebugger (304)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module AITestSuite (302)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (299)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (297)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (295)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (293)
-[2018.03.03-20.38.12:170][487]LogModuleManager: Shutting down and abandoning module CharacterAI (291)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module SessionServices (289)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (287)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (285)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module MovieScene (283)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module GeometryCache (281)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (280)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (277)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module PortalServices (275)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module PortalRpc (273)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module MessagingRpc (271)
-[2018.03.03-20.38.12:171][487]LogModuleManager: Shutting down and abandoning module ProfilerService (269)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module TaskGraph (267)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module SteamVRController (265)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (263)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module OculusInput (261)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (259)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (257)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module CableComponent (255)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (253)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module AndroidPermission (251)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module ActorSequence (249)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module MediaCompositing (247)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module HTML5Networking (245)
-[2018.03.03-20.38.12:309][487]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (243)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module HotReload (242)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (239)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module UObjectPlugin (237)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (235)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (233)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module SourceControl (232)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (229)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (227)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module PhysXVehicles (225)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (223)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (221)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (219)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module UdpMessaging (217)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module TcpMessaging (215)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (213)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module FacialAnimation (211)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (209)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module GraphEditor (208)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module ContentBrowser (206)
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module CollectionManager (205)
-[2018.03.03-20.38.12:310][487]LogDirectoryWatcher: A directory notification for 'C:/Users/Edward/Desktop/MultiplayerShootout/Content/Collections/' was aborted.
-[2018.03.03-20.38.12:310][487]LogDirectoryWatcher: A directory notification for 'C:/Users/Edward/Desktop/MultiplayerShootout/Content/Developers/Edward/Collections/' was aborted.
-[2018.03.03-20.38.12:310][487]LogDirectoryWatcher: A directory notification for 'C:/Users/Edward/Desktop/MultiplayerShootout/Saved/Collections/' was aborted.
-[2018.03.03-20.38.12:310][487]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (204)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (199)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module Paper2D (197)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (195)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module WmfMedia (193)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module ImgMedia (191)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module PacketHandler (189)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (187)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (185)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module MediaAssets (183)
-[2018.03.03-20.38.12:311][487]LogModuleManager: Shutting down and abandoning module Media (182)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module Overlay (179)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module OverlayEditor (178)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module VREditor (175)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module StringTableEditor (173)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (171)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (169)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module FunctionalTesting (167)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (165)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (164)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module UMG (161)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module UMGEditor (160)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module Sequencer (159)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module MessageLog (156)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module SlateReflector (151)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module Slate (149)
-[2018.03.03-20.38.12:317][487]LogModuleManager: Shutting down and abandoning module EditorStyle (147)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module MRMesh (145)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module Messaging (143)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (141)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (139)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module XAudio2 (137)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module Networking (135)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module Core (133)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module LevelSequence (131)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module KismetCompiler (129)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module MeshUtilities (127)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (126)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (125)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (124)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (122)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (120)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module MaterialBaking (116)
-[2018.03.03-20.38.12:319][487]LogModuleManager: Shutting down and abandoning module DerivedDataCache (111)
-[2018.03.03-20.38.12:537][487]LogDerivedDataCache: Shutdown
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module TargetPlatform (109)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (108)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (106)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (104)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (102)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (100)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (98)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (96)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (94)
-[2018.03.03-20.38.12:537][487]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (92)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (90)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module ImageWrapper (89)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (86)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (84)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (82)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (80)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (78)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (76)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (74)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (72)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module InputCore (69)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module Settings (67)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module PhysXCooking (65)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module SteamVR (63)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module OculusHMD (61)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (59)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module AppleARKit (57)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module AugmentedReality (56)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
-[2018.03.03-20.38.12:538][487]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
-[2018.03.03-20.38.12:538][487]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.03.03-20.38.12:538][487]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.03-20.38.12:539][487]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.03-20.38.12:539][487]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.03-20.38.12:539][487]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.03.03-20.38.12:539][487]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.03.03-20.38.12:561][487]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.03.03-20.38.12:563][487]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.03.03-20.38.12:564][487]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.03.03-20.38.12:564][487]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.03.03-20.38.12:564][487]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.03.03-20.38.12:564][487]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.03.03-20.38.12:564][487]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.03.03-20.38.12:566][487]LogExit: Exiting.
-[2018.03.03-20.38.12:591][487]Log file closed, 03/03/18 15:38:12
+[2018.03.04-00.08.36:525][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-00.08.36:526][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.04-00.08.36:543][  0]LogInit: Computer: DESKTOP-TVE1Q8K
+[2018.03.04-00.08.36:543][  0]LogInit: User: Cosmotron
+[2018.03.04-00.08.36:543][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.04-00.08.36:543][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.03.04-00.08.36:543][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.03.04-00.08.36:543][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.04-00.08.36:543][  0]LogMemory: Process Physical Memory: 278.56 MB used, 278.56 MB peak
+[2018.03.04-00.08.36:543][  0]LogMemory: Process Virtual Memory: 276.23 MB used, 276.23 MB peak
+[2018.03.04-00.08.36:543][  0]LogMemory: Physical Memory: 5843.38 MB used,  26879.33 MB free, 32722.71 MB total
+[2018.03.04-00.08.36:543][  0]LogMemory: Virtual Memory: 735.95 MB used,  26879.33 MB free, 134217728.00 MB total
+[2018.03.04-00.08.36:773][  0]LogInit: Using OS detected language (en-US).
+[2018.03.04-00.08.36:773][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.04-00.08.36:776][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.04-00.08.37:312][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.04-00.08.37:648][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.04-00.08.37:697][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.04-00.08.37:697][  0]LogD3D11RHI:       8081/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.04-00.08.37:701][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.04-00.08.37:701][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.04-00.08.37:701][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.04-00.08.37:709][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.04-00.08.37:709][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.04-00.08.37:709][  0]LogWindows: EnumDisplayDevices:
+[2018.03.04-00.08.37:710][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.04-00.08.37:710][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.04-00.08.37:710][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.04-00.08.37:710][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.04-00.08.37:710][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.04-00.08.37:710][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.04-00.08.37:710][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.04-00.08.37:710][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.04-00.08.37:710][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.03.04-00.08.37:746][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.04-00.08.37:765][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.04-00.08.37:808][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Intermediate/Shaders/WorkingDirectory/6860/).
+[2018.03.04-00.08.37:809][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cosmotron/AppData/Local/Temp/UnrealShaderWorkingDir/BECB059C41B21AC183AC0BA35CE1A2CE/'.
+[2018.03.04-00.08.37:809][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.04-00.08.39:020][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.04-00.08.39:092][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.04-00.08.39:164][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.04-00.08.39:235][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.04-00.08.39:309][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.04-00.08.39:381][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.04-00.08.39:450][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.04-00.08.39:520][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.04-00.08.39:580][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.04-00.08.39:650][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.04-00.08.39:719][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.04-00.08.39:789][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.04-00.08.39:860][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.04-00.08.39:933][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.04-00.08.40:078][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.04-00.08.40:078][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.04-00.08.40:147][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.04-00.08.40:203][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.04-00.08.40:325][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.04-00.08.40:361][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.04-00.08.40:429][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.04-00.08.40:499][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.04-00.08.40:573][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.04-00.08.40:648][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.04-00.08.40:648][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.04-00.08.41:271][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.04-00.08.41:353][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/Cosmotron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.04-00.08.41:353][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cosmotron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.04-00.08.41:353][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.04-00.08.41:354][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.04-00.08.41:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.04-00.08.41:354][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.04-00.08.41:374][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.04-00.08.41:386][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cosmotron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.04-00.08.41:400][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.04-00.08.41:400][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.04-00.08.41:401][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-00.08.41:401][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-00.08.41:886][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-00.08.42:341][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.04-00.08.42:400][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.04-00.08.42:401][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.04-00.08.42:401][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.04-00.08.42:401][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.04-00.08.42:401][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.04-00.08.42:441][  0]LogNetVersion: MultiplayerShootout , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2187402621)
+[2018.03.04-00.08.42:574][  0]Warning: Missing opening '"' in string property value: ThirdParty/Steamworks)
+[2018.03.04-00.08.42:658][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2018.03.04-00.08.43:285][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.085177 seconds
+[2018.03.04-00.08.43:292][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.04-00.08.43:292][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.04-00.08.43:292][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.04-00.08.46:891][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.04-00.08.46:945][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.04-00.08.47:851][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.04-00.08.48:431][  0]SourceControl: Source control is disabled
+[2018.03.04-00.08.48:431][  0]SourceControl: Source control is disabled
+[2018.03.04-00.08.48:502][  0]SourceControl: Source control is disabled
+[2018.03.04-00.08.48:570][  0]SourceControl: Source control is disabled
+[2018.03.04-00.08.49:598][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.04-00.08.49:969][  0]LogOcInput: OculusInput pre-init called
+[2018.03.04-00.08.50:366][  0]LogEngine: Initializing Engine...
+[2018.03.04-00.08.50:941][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-25FB5BEE
+[2018.03.04-00.08.51:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.04-00.08.51:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.04-00.08.51:360][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.04-00.08.51:379][  0]LogInit: XAudio2 using 'HTC-VIVE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.04-00.08.51:394][  0]LogInit: FAudioDevice initialized.
+[2018.03.04-00.08.51:468][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/Cosmotron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.04-00.08.51:481][  0]LogInit: Texture streaming: Enabled
+[2018.03.04-00.08.51:609][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.04-00.08.51:771][  0]LogInit: Transaction tracking system initialized
+[2018.03.04-00.08.52:189][  0]BlueprintLog: New page: Editor Load
+[2018.03.04-00.08.53:312][  0]LocalizationService: Localization service is disabled
+[2018.03.04-00.08.54:233][  0]LogConsoleResponse: Display: 
+[2018.03.04-00.08.54:443][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.04-00.08.54:444][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.04-00.08.54:444][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.04-00.08.55:071][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/' took 0.02s
+[2018.03.04-00.08.55:912][  0]SourceControl: Source control is disabled
+[2018.03.04-00.08.55:912][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-00.08.55:913][  0]LightingResults: New page: Lighting Build
+[2018.03.04-00.08.55:967][  0]MapCheck: New page: Map Check
+[2018.03.04-00.08.55:967][  0]LightingResults: New page: Lighting Build
+[2018.03.04-00.08.56:991][  0]LogBlueprint: Warning: [Compiler BP_Projectile] Set Physics Angular Velocity  is deprecated; Use SetPhysicsAngularVelocityInDegrees instead
+[2018.03.04-00.08.57:105][  0]LogBlueprint: Warning: [Compiler BP_Projectile] [0024.43] Compile of BP_Projectile successful, but with 1 Warning(s) [in 154 ms] (/Game/Blueprints/BP_Projectile.BP_Projectile)
+[2018.03.04-00.08.57:902][  0]LogAIModule: Creating AISystem for world VR_Level01
+[2018.03.04-00.08.57:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.04-00.08.57:937][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-00.08.58:019][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.071ms to complete.
+[2018.03.04-00.08.58:019][  0]LogFileHelpers: Loading map 'VR_Level01' took 2.107
+[2018.03.04-00.08.58:250][  0]LogCollectionManager: Loaded 0 collections in 0.002130 seconds
+[2018.03.04-00.08.58:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Collections/' took 0.01s
+[2018.03.04-00.08.58:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Developers/Cosmotron/Collections/' took 0.01s
+[2018.03.04-00.08.58:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Collections/' took 0.01s
+[2018.03.04-00.08.58:342][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.04-00.08.58:352][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2364 classes and 521 folders.
+[2018.03.04-00.08.58:436][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.04-00.08.58:479][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.04-00.08.58:573][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-00.08.58:579][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.04-00.08.58:582][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.04-00.08.58:694][  0]LogRenderer: Reallocating scene render targets to support 1024x512 Format 10 NumSamples 1 (Frame:1).
+[2018.03.04-00.08.58:885][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.04-00.08.58:885][  0]LogLoad: (Engine Initialization) Total time: 26.21 seconds
+[2018.03.04-00.08.58:885][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.04-00.08.58:885][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.04-00.08.58:904][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.04-00.08.58:926][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.04-00.08.58:948][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-00.08.58:979][  1]LogAssetRegistry: Asset discovery search completed in 16.3426 seconds
+[2018.03.04-00.08.58:982][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.04-00.08.58:982][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2018.03.04-00.08.59:022][  1]LogStaticMesh: Allocated 496x129x64 distance field atlas = 7.8Mb, with 57 objects containing 3.2Mb backing data
+[2018.03.04-00.08.59:935][ 51]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-00.09.26:442][637]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator0' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator1' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator2' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator3' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::VR_MAX' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator0' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator1' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator2' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:745][637]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator3' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.04-00.09.26:809][637]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.03.04-00.09.27:641][637]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-00.09.27:715][637]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.04-00.09.27:802][638]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.04-00.10.19:935][900]LogHttp: Warning: 000001E609F16680: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.10.19:935][900]LogHttp: Warning: 000001E609F16680: libcurl info message cache 0 (  Trying 10.0.0.1...)
+[2018.03.04-00.10.19:935][900]LogHttp: Warning: 000001E609F16680: libcurl info message cache 1 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.10.19:935][900]LogHttp: Warning: 000001E609F16680: libcurl info message cache 2 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.10.19:935][900]LogHttp: Warning: 000001E609F16680: libcurl info message cache 3 (Closing connection 0)
+[2018.03.04-00.10.23:913][138]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-00.10.28:955][327]LogSavePackage: Save=229.30ms
+[2018.03.04-00.10.28:955][327]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_CharacterD08ACD794E6A1F11E1DAE2BC6C36A644.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.04-00.10.28:959][327]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.04-00.11.38:229][945]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-00.12.41:197][439]LogHttp: Warning: 000001E608F4D900: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.12.41:197][439]LogHttp: Warning: 000001E608F4D900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.12.41:197][439]LogHttp: Warning: 000001E608F4D900: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.12.41:197][439]LogHttp: Warning: 000001E608F4D900: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.12.41:197][439]LogHttp: Warning: 000001E608F4D900: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.12.41:197][439]LogHttp: Warning: 000001E608F4D900: libcurl info message cache 4 (Closing connection 1)
+[2018.03.04-00.15.02:232][863]LogHttp: Warning: 000001E6116C4700: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.15.02:232][863]LogHttp: Warning: 000001E6116C4700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.15.02:232][863]LogHttp: Warning: 000001E6116C4700: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.15.02:232][863]LogHttp: Warning: 000001E6116C4700: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.15.02:232][863]LogHttp: Warning: 000001E6116C4700: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.15.02:232][863]LogHttp: Warning: 000001E6116C4700: libcurl info message cache 4 (Closing connection 2)
+[2018.03.04-00.16.32:992][271]LogSavePackage: Save=258.47ms
+[2018.03.04-00.16.32:992][271]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Level018FAC4ADF4069B5B664A4D4805C48712E.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap'
+[2018.03.04-00.16.32:997][271]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap
+[2018.03.04-00.16.44:410][920]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.04-00.17.02:452][901]LogClass: Warning: Type mismatch in Player 1 Transform Start of SKEL_VR_GameMode_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.03.04-00.17.22:054][825]LogClass: Warning: Type mismatch in Player 2 Transform Start of SKEL_VR_GameMode_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.03.04-00.17.23:650][914]LogHttp: Warning: 000001E62A5FD900: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.17.23:650][914]LogHttp: Warning: 000001E62A5FD900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.17.23:650][914]LogHttp: Warning: 000001E62A5FD900: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.17.23:650][914]LogHttp: Warning: 000001E62A5FD900: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.17.23:650][914]LogHttp: Warning: 000001E62A5FD900: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.17.23:650][914]LogHttp: Warning: 000001E62A5FD900: libcurl info message cache 4 (Closing connection 3)
+[2018.03.04-00.18.27:136][432]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.18.27:210][432]LogBlueprint: Error: [Compiler VR_GameMode] The current value of the ' Array ' pin is invalid: Array inputs (like 'Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.03.04-00.18.27:211][432]LogBlueprint: Error: [Compiler VR_GameMode] The current value of the ' Array ' pin is invalid: Array inputs (like 'Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.03.04-00.18.27:496][432]LogBlueprint: Warning: [Compiler VR_GameMode] [0594.82] Compile of VR_GameMode failed. 2 Fatal Issue(s) 0 Warning(s) [in 359 ms] (/Game/Z_Folder/Blueprints/VR_GameMode.VR_GameMode)
+[2018.03.04-00.18.41:260][243]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.18.57:195][161]LogSavePackage: Save=117.80ms
+[2018.03.04-00.18.57:195][161]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeD0EE66934B99DCCCBE11189DA9F7A1C2.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.18.57:199][161]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.19.44:729][967]LogHttp: Warning: 000001E604656380: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.19.44:729][967]LogHttp: Warning: 000001E604656380: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.19.44:729][967]LogHttp: Warning: 000001E604656380: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.19.44:729][967]LogHttp: Warning: 000001E604656380: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.19.44:729][967]LogHttp: Warning: 000001E604656380: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.19.44:729][967]LogHttp: Warning: 000001E604656380: libcurl info message cache 4 (Closing connection 4)
+[2018.03.04-00.19.45:757][ 28]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.21.32:028][513]LogSavePackage: Save=217.85ms
+[2018.03.04-00.21.32:028][513]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Character6FEFC0904ED142DB3D8C5B9390318169.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.04-00.21.32:033][513]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.04-00.21.32:181][513]LogSavePackage: Save=119.31ms
+[2018.03.04-00.21.32:181][513]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeB4CA63564432A07746C01AA318ECFAEC.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.21.32:186][513]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.22.06:282][659]LogHttp: Warning: 000001E628275900: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.22.06:282][659]LogHttp: Warning: 000001E628275900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.22.06:282][659]LogHttp: Warning: 000001E628275900: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.22.06:282][659]LogHttp: Warning: 000001E628275900: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.22.06:282][659]LogHttp: Warning: 000001E628275900: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.22.06:282][659]LogHttp: Warning: 000001E628275900: libcurl info message cache 4 (Closing connection 5)
+[2018.03.04-00.22.55:250][896]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.23.10:766][747]LogSavePackage: Save=118.19ms
+[2018.03.04-00.23.10:767][747]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeDA68D6724C2C2567FC718C9AF295FAE7.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.23.10:771][747]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.24.27:537][523]LogHttp: Warning: 000001E635F89780: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.24.27:537][523]LogHttp: Warning: 000001E635F89780: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.24.27:537][523]LogHttp: Warning: 000001E635F89780: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.24.27:537][523]LogHttp: Warning: 000001E635F89780: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.24.27:537][523]LogHttp: Warning: 000001E635F89780: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.24.27:537][523]LogHttp: Warning: 000001E635F89780: libcurl info message cache 4 (Closing connection 6)
+[2018.03.04-00.24.35:212][981]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.26.04:937][190]LogSavePackage: Save=125.83ms
+[2018.03.04-00.26.04:937][190]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode8B6B21F746E5E2EF5011E1A651E081DA.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.26.04:941][190]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.26.48:878][374]LogHttp: Warning: 000001E635D62E00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.26.48:879][374]LogHttp: Warning: 000001E635D62E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.26.48:879][374]LogHttp: Warning: 000001E635D62E00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.26.48:879][374]LogHttp: Warning: 000001E635D62E00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.26.48:879][374]LogHttp: Warning: 000001E635D62E00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.26.48:879][374]LogHttp: Warning: 000001E635D62E00: libcurl info message cache 4 (Closing connection 7)
+[2018.03.04-00.27.29:245][720]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.27.31:793][865]LogUObjectGlobals: Warning: Failed to find object 'Class None.None'
+[2018.03.04-00.27.33:897][968]LogSavePackage: Save=307.30ms
+[2018.03.04-00.27.33:897][968]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Level014E39219143A7DECD5CB16699C673B13F.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap'
+[2018.03.04-00.27.33:902][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap
+[2018.03.04-00.27.36:181][ 27]LogSavePackage: Save=139.70ms
+[2018.03.04-00.27.36:181][ 27]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeF89C78054A414B1C96EF06909976E520.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.27.36:185][ 27]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.29.10:179][ 84]LogHttp: Warning: 000001E631F2A800: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.29.10:179][ 84]LogHttp: Warning: 000001E631F2A800: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.29.10:179][ 84]LogHttp: Warning: 000001E631F2A800: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.29.10:179][ 84]LogHttp: Warning: 000001E631F2A800: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.29.10:179][ 84]LogHttp: Warning: 000001E631F2A800: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.29.10:179][ 84]LogHttp: Warning: 000001E631F2A800: libcurl info message cache 4 (Closing connection 8)
+[2018.03.04-00.30.55:524][322]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.31.31:213][438]LogHttp: Warning: 000001E613791300: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.31.31:213][438]LogHttp: Warning: 000001E613791300: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.31.31:213][438]LogHttp: Warning: 000001E613791300: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.31.31:213][438]LogHttp: Warning: 000001E613791300: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.31.31:213][438]LogHttp: Warning: 000001E613791300: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.31.31:213][438]LogHttp: Warning: 000001E613791300: libcurl info message cache 4 (Closing connection 9)
+[2018.03.04-00.31.37:878][805]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-00.32.18:807][200]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.33.52:580][142]LogHttp: Warning: 000001E609F48400: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.33.52:580][142]LogHttp: Warning: 000001E609F48400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.33.52:580][142]LogHttp: Warning: 000001E609F48400: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.33.52:580][142]LogHttp: Warning: 000001E609F48400: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.33.52:580][142]LogHttp: Warning: 000001E609F48400: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.33.52:580][142]LogHttp: Warning: 000001E609F48400: libcurl info message cache 4 (Closing connection 10)
+[2018.03.04-00.36.13:606][417]LogHttp: Warning: 000001E63D78E380: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.36.13:606][417]LogHttp: Warning: 000001E63D78E380: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.36.13:606][417]LogHttp: Warning: 000001E63D78E380: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.36.13:606][417]LogHttp: Warning: 000001E63D78E380: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.36.13:606][417]LogHttp: Warning: 000001E63D78E380: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.36.13:607][417]LogHttp: Warning: 000001E63D78E380: libcurl info message cache 4 (Closing connection 11)
+[2018.03.04-00.36.31:468][473]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.36.48:511][466]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.36.49:609][530]LogUObjectGlobals: Warning: Failed to find object 'Class None.None'
+[2018.03.04-00.37.07:358][590]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-00.37.10:551][656]LogSavePackage: Save=213.47ms
+[2018.03.04-00.37.10:551][656]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Character132190E74DE349AE3BBFFDBD7A222B24.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.04-00.37.10:557][656]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.04-00.37.10:718][656]LogSavePackage: Save=124.71ms
+[2018.03.04-00.37.10:718][656]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode54362C0F42F35C83C20C05962528DA57.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.37.10:723][656]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.38.34:641][518]LogHttp: Warning: 000001E63D46C880: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.38.34:641][518]LogHttp: Warning: 000001E63D46C880: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.38.34:641][518]LogHttp: Warning: 000001E63D46C880: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.38.34:641][518]LogHttp: Warning: 000001E63D46C880: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.38.34:641][518]LogHttp: Warning: 000001E63D46C880: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.38.34:641][518]LogHttp: Warning: 000001E63D46C880: libcurl info message cache 4 (Closing connection 12)
+[2018.03.04-00.39.30:630][872]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.39.35:500][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.023
+[2018.03.04-00.39.35:503][132]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Z_Folder/Blueprints/VR_GameMode] ([1] browsable assets)...
+[2018.03.04-00.39.35:503][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_GameMode]
+[2018.03.04-00.39.35:652][132]LogSavePackage: Save=122.07ms
+[2018.03.04-00.39.35:652][132]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode_Auto1BB3598594BB050878E56B8B3A1EA4869.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto1.uasset'
+[2018.03.04-00.39.35:654][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto1.uasset
+[2018.03.04-00.39.35:654][132]LogFileHelpers: Auto-saving content packages took 0.153
+[2018.03.04-00.39.48:221][803]LogSavePackage: Save=118.69ms
+[2018.03.04-00.39.48:221][803]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode5C1DC0674C0954A1DC048EAB7AB73638.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.39.48:224][803]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.40.56:030][ 71]LogHttp: Warning: 000001E613BB0B80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.40.56:030][ 71]LogHttp: Warning: 000001E613BB0B80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.40.56:030][ 71]LogHttp: Warning: 000001E613BB0B80: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.40.56:030][ 71]LogHttp: Warning: 000001E613BB0B80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.40.56:030][ 71]LogHttp: Warning: 000001E613BB0B80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.40.56:030][ 71]LogHttp: Warning: 000001E613BB0B80: libcurl info message cache 4 (Closing connection 13)
+[2018.03.04-00.41.16:180][121]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.41.23:638][559]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-00.41.33:922][ 55]LogSavePackage: Save=244.66ms
+[2018.03.04-00.41.33:922][ 55]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_CharacterE286B2DB4A17D3BCF6C6C7989E399358.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.04-00.41.33:926][ 55]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.04-00.41.34:097][ 55]LogSavePackage: Save=139.63ms
+[2018.03.04-00.41.34:097][ 55]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeD304781141DD5B504FFBB79932D2DC02.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.41.34:101][ 55]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.43.17:625][396]LogHttp: Warning: 000001E609F14D00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.43.17:625][396]LogHttp: Warning: 000001E609F14D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.43.17:625][396]LogHttp: Warning: 000001E609F14D00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.43.17:625][396]LogHttp: Warning: 000001E609F14D00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.43.17:625][396]LogHttp: Warning: 000001E609F14D00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.43.17:625][396]LogHttp: Warning: 000001E609F14D00: libcurl info message cache 4 (Closing connection 14)
+[2018.03.04-00.45.38:667][656]LogHttp: Warning: 000001E5FBA94580: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.45.38:667][656]LogHttp: Warning: 000001E5FBA94580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.45.38:667][656]LogHttp: Warning: 000001E5FBA94580: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.45.38:667][656]LogHttp: Warning: 000001E5FBA94580: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.45.38:667][656]LogHttp: Warning: 000001E5FBA94580: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.45.38:667][656]LogHttp: Warning: 000001E5FBA94580: libcurl info message cache 4 (Closing connection 15)
+[2018.03.04-00.47.40:055][839]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.47.51:727][535]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.47.59:712][984]LogHttp: Warning: 000001E604657700: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.47.59:713][984]LogHttp: Warning: 000001E604657700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.47.59:713][984]LogHttp: Warning: 000001E604657700: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.47.59:713][984]LogHttp: Warning: 000001E604657700: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.47.59:713][984]LogHttp: Warning: 000001E604657700: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.47.59:713][984]LogHttp: Warning: 000001E604657700: libcurl info message cache 4 (Closing connection 16)
+[2018.03.04-00.48.04:402][256]LogRenderer: Reallocating scene render targets to support 1048x616 Format 10 NumSamples 1 (Frame:1).
+[2018.03.04-00.48.16:772][974]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-00.48.32:604][878]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.48.38:559][230]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-00.48.58:734][393]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-00.49.41:111][861]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.49.51:567][431]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.49.54:983][524]LogSavePackage: Save=227.24ms
+[2018.03.04-00.49.54:983][524]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Character38E391124E402CFE023629BE54F3DDC7.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.04-00.49.54:988][524]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.04-00.49.55:143][524]LogSavePackage: Save=119.21ms
+[2018.03.04-00.49.55:143][524]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode5943CB7341297B9E20DA5FB430A28421.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.49.55:147][524]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.50.21:343][690]LogHttp: Warning: 000001E628665300: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.50.21:343][690]LogHttp: Warning: 000001E628665300: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.50.21:343][690]LogHttp: Warning: 000001E628665300: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.50.21:343][690]LogHttp: Warning: 000001E628665300: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.50.21:343][690]LogHttp: Warning: 000001E628665300: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.50.21:343][690]LogHttp: Warning: 000001E628665300: libcurl info message cache 4 (Closing connection 17)
+[2018.03.04-00.51.16:579][390]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.51.21:985][709]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.51.25:871][842]LogSavePackage: Save=123.22ms
+[2018.03.04-00.51.25:871][842]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode10133C04436D370B799F8B8BB752A558.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.51.25:875][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.52.42:386][820]LogHttp: Warning: 000001E63B00A680: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.52.42:386][820]LogHttp: Warning: 000001E63B00A680: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.52.42:386][820]LogHttp: Warning: 000001E63B00A680: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.52.42:386][820]LogHttp: Warning: 000001E63B00A680: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.52.42:386][820]LogHttp: Warning: 000001E63B00A680: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.52.42:386][820]LogHttp: Warning: 000001E63B00A680: libcurl info message cache 4 (Closing connection 18)
+[2018.03.04-00.53.07:563][276]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.54.38:262][467]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.54.38:321][467]LogBlueprint: Error: [Compiler VR_GameMode] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2018.03.04-00.54.38:475][467]LogBlueprint: Warning: [Compiler VR_GameMode] [2765.80] Compile of VR_GameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 212 ms] (/Game/Z_Folder/Blueprints/VR_GameMode.VR_GameMode)
+[2018.03.04-00.55.03:456][932]LogHttp: Warning: 000001E64AB23280: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.55.03:456][932]LogHttp: Warning: 000001E64AB23280: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.55.03:456][932]LogHttp: Warning: 000001E64AB23280: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.55.03:456][932]LogHttp: Warning: 000001E64AB23280: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.55.03:456][932]LogHttp: Warning: 000001E64AB23280: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.55.03:456][932]LogHttp: Warning: 000001E64AB23280: libcurl info message cache 4 (Closing connection 19)
+[2018.03.04-00.55.11:445][408]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.55.14:661][512]LogSavePackage: Save=128.54ms
+[2018.03.04-00.55.14:661][512]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeF81150A84426749B665114862EC97438.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.55.14:666][512]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.55.57:170][211]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-00.56.02:781][539]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-00.56.03:901][580]LogTemp: Repeating last play command: VR Preview
+[2018.03.04-00.56.04:131][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-00.56.04:132][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.04-00.56.04:132][580]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-00.56.04:132][580]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.04-00.56.04:133][580]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.04-00.56.04:133][580]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.04-00.56.04:133][580]LogModuleManager: Warning: No filename provided for module OnlineSubsystemSteam
+[2018.03.04-00.56.04:133][580]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/' was not found.
+[2018.03.04-00.56.04:145][580]PIE: New page: PIE session: VR_Level01 (Mar 3, 2018, 2:56:04 PM)
+[2018.03.04-00.56.04:145][580]LogPlayLevel: Creating play world package: /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01
+[2018.03.04-00.56.04:154][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008408s)
+[2018.03.04-00.56.04:154][580]LogAIModule: Creating AISystem for world VR_Level01
+[2018.03.04-00.56.04:155][580]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2018.03.04-00.56.04:155][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01 to /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01.VR_Level01 (0.009783s)
+[2018.03.04-00.56.04:197][580]LogInit: XAudio2 using 'HTC-VIVE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.04-00.56.04:209][580]LogInit: FAudioDevice initialized.
+[2018.03.04-00.56.04:831][580]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-25FB5BEE
+[2018.03.04-00.56.04:877][580]LogLoad: Game class is 'VR_GameMode_C'
+[2018.03.04-00.56.04:883][580]LogWorld: Bringing World /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01.VR_Level01 up for play (max tick rate 0) at 2018.03.03-19.56.04
+[2018.03.04-00.56.04:884][580]LogWorld: Bringing up level for play took: 0.003430
+[2018.03.04-00.56.04:896][580]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.03.04-00.56.04:977][580]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.03.04-00.56.04:980][580]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-00.56.04:980][580]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-00.56.04:980][580]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-00.56.04:984][580]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-00.56.04:987][580]PIE: Play in editor start time for /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01 0.125
+[2018.03.04-00.56.04:988][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-00.56.05:052][581]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:1).
+[2018.03.04-00.56.06:541][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-00.56.06:715][709]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-00.56.06:715][709]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.04-00.56.06:716][709]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.04-00.56.06:716][709]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.04-00.56.06:717][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.04-00.56.06:717][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-00.56.06:766][710]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.03.04-00.56.06:766][710]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-00.56.34:380][878]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.027
+[2018.03.04-00.56.34:383][878]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Z_Folder/Blueprints/VR_GameMode] ([1] browsable assets)...
+[2018.03.04-00.56.34:383][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_GameMode]
+[2018.03.04-00.56.34:569][878]LogSavePackage: Save=155.03ms
+[2018.03.04-00.56.34:569][878]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode_Auto285D84A504BEE893D6DB0A681D6C4C6D1.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto2.uasset'
+[2018.03.04-00.56.34:572][878]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto2.uasset
+[2018.03.04-00.56.34:572][878]LogFileHelpers: Auto-saving content packages took 0.190
+[2018.03.04-00.57.24:495][534]LogHttp: Warning: 000001E63769F280: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.57.24:495][534]LogHttp: Warning: 000001E63769F280: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.57.24:495][534]LogHttp: Warning: 000001E63769F280: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.57.24:495][534]LogHttp: Warning: 000001E63769F280: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.57.24:495][534]LogHttp: Warning: 000001E63769F280: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.57.24:495][534]LogHttp: Warning: 000001E63769F280: libcurl info message cache 4 (Closing connection 20)
+[2018.03.04-00.57.42:668][599]LogTemp: Repeating last play command: VR Preview
+[2018.03.04-00.57.42:712][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-00.57.42:712][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.04-00.57.42:712][599]PIE: New page: PIE session: VR_Level01 (Mar 3, 2018, 2:57:42 PM)
+[2018.03.04-00.57.42:713][599]LogPlayLevel: Creating play world package: /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01
+[2018.03.04-00.57.42:718][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005799s)
+[2018.03.04-00.57.42:719][599]LogAIModule: Creating AISystem for world VR_Level01
+[2018.03.04-00.57.42:719][599]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2018.03.04-00.57.42:720][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01 to /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01.VR_Level01 (0.007245s)
+[2018.03.04-00.57.42:758][599]LogInit: XAudio2 using 'HTC-VIVE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.04-00.57.42:768][599]LogInit: FAudioDevice initialized.
+[2018.03.04-00.57.45:386][599]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-25FB5BEE
+[2018.03.04-00.57.45:422][599]LogLoad: Game class is 'VR_GameMode_C'
+[2018.03.04-00.57.45:428][599]LogWorld: Bringing World /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01.VR_Level01 up for play (max tick rate 0) at 2018.03.03-19.57.45
+[2018.03.04-00.57.45:429][599]LogWorld: Bringing up level for play took: 0.003740
+[2018.03.04-00.57.45:441][599]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.03.04-00.57.45:442][599]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-00.57.45:443][599]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-00.57.45:443][599]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-00.57.45:445][599]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-00.57.45:452][599]PIE: Play in editor start time for /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01 2.59
+[2018.03.04-00.57.45:453][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-00.57.53:327][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-00.57.53:490][295]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-00.57.53:490][295]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.04-00.57.53:491][295]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.04-00.57.53:491][295]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.04-00.57.53:491][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.04-00.57.53:492][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-00.57.53:546][296]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.03.04-00.57.53:546][296]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-00.57.56:378][393]LogSavePackage: Save=130.77ms
+[2018.03.04-00.57.56:379][393]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeAC892EBC4E1D435623D6E684237C5DA0.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-00.57.56:383][393]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-00.59.45:518][956]LogHttp: Warning: 000001E64AF5EF80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-00.59.45:518][956]LogHttp: Warning: 000001E64AF5EF80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-00.59.45:518][956]LogHttp: Warning: 000001E64AF5EF80: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-00.59.45:518][956]LogHttp: Warning: 000001E64AF5EF80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-00.59.45:518][956]LogHttp: Warning: 000001E64AF5EF80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-00.59.45:518][956]LogHttp: Warning: 000001E64AF5EF80: libcurl info message cache 4 (Closing connection 21)
+[2018.03.04-01.00.45:646][550]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.04-01.00.45:650][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:651][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:652][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:653][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:654][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:655][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:655][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:655][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:655][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:655][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:655][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:655][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:655][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:656][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:657][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:658][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:659][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:659][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:659][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:659][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:659][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:659][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:659][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:659][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:660][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:660][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:660][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:660][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:660][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:660][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:660][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:660][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:661][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:661][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:661][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:661][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:661][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:661][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:661][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:661][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:671][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:691][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:692][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:694][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:694][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:695][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:695][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:695][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:695][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:698][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:707][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:708][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:714][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.45:714][550]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:647][663]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.04-01.00.47:652][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:652][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:652][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:652][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:652][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:653][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:654][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:655][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:656][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:657][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:658][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:658][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:658][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:658][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:658][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:658][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:658][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:658][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:659][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:660][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:660][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:660][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:660][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:660][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:660][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:660][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:661][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:662][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:663][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:664][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:664][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:664][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:673][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:692][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:693][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:695][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:695][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:695][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:695][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:696][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:696][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:699][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:707][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:707][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:715][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.00.47:715][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.04-01.02.06:572][325]LogHttp: Warning: 000001E65394CD00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.02.06:572][325]LogHttp: Warning: 000001E65394CD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.02.06:572][325]LogHttp: Warning: 000001E65394CD00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.02.06:572][325]LogHttp: Warning: 000001E65394CD00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.02.06:572][325]LogHttp: Warning: 000001E65394CD00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.02.06:572][325]LogHttp: Warning: 000001E65394CD00: libcurl info message cache 4 (Closing connection 22)
+[2018.03.04-01.02.14:270][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.04-01.02.32:851][877]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-01.02.44:471][266]LogSavePackage: Save=132.01ms
+[2018.03.04-01.02.44:472][266]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode5C7535C247BAE0BC703CD9BFBEC1587C.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-01.02.44:475][266]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-01.04.27:747][779]LogHttp: Warning: 000001E5CED13100: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.04.27:747][779]LogHttp: Warning: 000001E5CED13100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.04.27:747][779]LogHttp: Warning: 000001E5CED13100: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.04.27:747][779]LogHttp: Warning: 000001E5CED13100: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.04.27:747][779]LogHttp: Warning: 000001E5CED13100: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.04.27:747][779]LogHttp: Warning: 000001E5CED13100: libcurl info message cache 4 (Closing connection 23)
+[2018.03.04-01.06.45:810][843]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-01.06.48:783][ 19]LogHttp: Warning: 000001E5F95D0D00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.06.48:783][ 19]LogHttp: Warning: 000001E5F95D0D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.06.48:783][ 19]LogHttp: Warning: 000001E5F95D0D00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.06.48:783][ 19]LogHttp: Warning: 000001E5F95D0D00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.06.48:783][ 19]LogHttp: Warning: 000001E5F95D0D00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.06.48:783][ 19]LogHttp: Warning: 000001E5F95D0D00: libcurl info message cache 4 (Closing connection 24)
+[2018.03.04-01.07.03:287][831]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-01.07.06:266][907]LogSavePackage: Save=141.19ms
+[2018.03.04-01.07.06:266][907]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode445CFFD04CD04EE62A8E80B35C584E1E.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-01.07.06:272][907]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-01.09.08:101][531]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-01.09.09:158][593]LogUObjectGlobals: Warning: Failed to find object 'Class None.None'
+[2018.03.04-01.09.09:819][633]LogHttp: Warning: 000001E6430F7400: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.09.09:819][633]LogHttp: Warning: 000001E6430F7400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.09.09:819][633]LogHttp: Warning: 000001E6430F7400: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.09.09:819][633]LogHttp: Warning: 000001E6430F7400: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.09.09:819][633]LogHttp: Warning: 000001E6430F7400: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.09.09:819][633]LogHttp: Warning: 000001E6430F7400: libcurl info message cache 4 (Closing connection 25)
+[2018.03.04-01.09.13:615][761]LogSavePackage: Save=131.95ms
+[2018.03.04-01.09.13:615][761]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode5C4694D34FB8F12D00113CB5921757A7.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-01.09.13:620][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-01.11.30:865][423]LogHttp: Warning: 000001E631F6A980: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.11.30:865][423]LogHttp: Warning: 000001E631F6A980: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.11.30:865][423]LogHttp: Warning: 000001E631F6A980: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.11.30:865][423]LogHttp: Warning: 000001E631F6A980: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.11.30:865][423]LogHttp: Warning: 000001E631F6A980: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.11.30:865][423]LogHttp: Warning: 000001E631F6A980: libcurl info message cache 4 (Closing connection 26)
+[2018.03.04-01.12.28:783][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.042
+[2018.03.04-01.12.28:786][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Z_Folder/Blueprints/VR_GameMode] ([1] browsable assets)...
+[2018.03.04-01.12.28:786][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_GameMode]
+[2018.03.04-01.12.28:977][338]LogSavePackage: Save=160.81ms
+[2018.03.04-01.12.28:978][338]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode_Auto30125709C447EC71B64FAF0A31FF62E32.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto3.uasset'
+[2018.03.04-01.12.28:981][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto3.uasset
+[2018.03.04-01.12.28:982][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyGameMode] ([1] browsable assets)...
+[2018.03.04-01.12.28:982][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyGameMode]
+[2018.03.04-01.12.29:129][338]LogSavePackage: Save=107.83ms
+[2018.03.04-01.12.29:129][338]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/MyGameMode_Auto3DDCE49704C76102A8400499EDCF8C35D.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Blueprints/MyGameMode_Auto3.uasset'
+[2018.03.04-01.12.29:130][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Blueprints/MyGameMode_Auto3.uasset
+[2018.03.04-01.12.29:131][338]LogFileHelpers: Auto-saving content packages took 0.345
+[2018.03.04-01.13.52:201][926]LogHttp: Warning: 000001E648543B80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.13.52:201][926]LogHttp: Warning: 000001E648543B80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.13.52:201][926]LogHttp: Warning: 000001E648543B80: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.13.52:201][926]LogHttp: Warning: 000001E648543B80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.13.52:201][926]LogHttp: Warning: 000001E648543B80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.13.52:201][926]LogHttp: Warning: 000001E648543B80: libcurl info message cache 4 (Closing connection 27)
+[2018.03.04-01.16.13:613][875]LogHttp: Warning: 000001E65445A680: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.16.13:614][875]LogHttp: Warning: 000001E65445A680: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.16.13:614][875]LogHttp: Warning: 000001E65445A680: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.16.13:614][875]LogHttp: Warning: 000001E65445A680: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.16.13:614][875]LogHttp: Warning: 000001E65445A680: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.16.13:614][875]LogHttp: Warning: 000001E65445A680: libcurl info message cache 4 (Closing connection 28)
+[2018.03.04-01.18.26:706][446]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.04-01.18.34:630][903]LogHttp: Warning: 000001E63D126800: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.18.34:630][903]LogHttp: Warning: 000001E63D126800: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.18.34:630][903]LogHttp: Warning: 000001E63D126800: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.18.34:630][903]LogHttp: Warning: 000001E63D126800: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.18.34:630][903]LogHttp: Warning: 000001E63D126800: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.18.34:630][903]LogHttp: Warning: 000001E63D126800: libcurl info message cache 4 (Closing connection 29)
+[2018.03.04-01.18.53:629][972]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-01.19.03:429][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGameMode" FILE="../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Blueprints/MyGameMode.uasset" SILENT=true
+[2018.03.04-01.19.03:557][458]LogSavePackage: Save=93.05ms
+[2018.03.04-01.19.03:557][458]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/MyGameModeDB6F8E954F27A389A664EA9BCA701F04.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Blueprints/MyGameMode.uasset'
+[2018.03.04-01.19.03:562][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Blueprints/MyGameMode.uasset
+[2018.03.04-01.19.03:733][458]LogSavePackage: Save=137.56ms
+[2018.03.04-01.19.03:733][458]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode9AE79E9E4C1ABC8987F10B836B0713A7.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-01.19.03:737][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-01.20.55:814][624]LogHttp: Warning: 000001E6238FD900: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.20.55:814][624]LogHttp: Warning: 000001E6238FD900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.20.55:814][624]LogHttp: Warning: 000001E6238FD900: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.20.55:814][624]LogHttp: Warning: 000001E6238FD900: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.20.55:814][624]LogHttp: Warning: 000001E6238FD900: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.20.55:814][624]LogHttp: Warning: 000001E6238FD900: libcurl info message cache 4 (Closing connection 30)
+[2018.03.04-01.23.17:066][437]LogHttp: Warning: 000001E611502B00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.23.17:066][437]LogHttp: Warning: 000001E611502B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.23.17:066][437]LogHttp: Warning: 000001E611502B00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.23.17:067][437]LogHttp: Warning: 000001E611502B00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.23.17:067][437]LogHttp: Warning: 000001E611502B00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.23.17:067][437]LogHttp: Warning: 000001E611502B00: libcurl info message cache 4 (Closing connection 31)
+[2018.03.04-01.25.38:114][517]LogHttp: Warning: 000001E629632E00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.25.38:114][517]LogHttp: Warning: 000001E629632E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.25.38:114][517]LogHttp: Warning: 000001E629632E00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.25.38:114][517]LogHttp: Warning: 000001E629632E00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.25.38:115][517]LogHttp: Warning: 000001E629632E00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.25.38:115][517]LogHttp: Warning: 000001E629632E00: libcurl info message cache 4 (Closing connection 32)
+[2018.03.04-01.25.46:177][857]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-01.25.46:237][857]LogBlueprint: Error: [Compiler VR_GameMode] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2018.03.04-01.25.46:237][857]LogBlueprint: Error: [Compiler VR_GameMode] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2018.03.04-01.25.46:238][857]LogBlueprint: Error: [Compiler VR_GameMode] Variable node  Get PlayerState  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.04-01.25.46:407][857]LogBlueprint: Warning: [Compiler VR_GameMode] [4633.73] Compile of VR_GameMode failed. 3 Fatal Issue(s) 0 Warning(s) [in 228 ms] (/Game/Z_Folder/Blueprints/VR_GameMode.VR_GameMode)
+[2018.03.04-01.26.58:634][583]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-01.26.58:685][583]LogBlueprint: Error: [Compiler VR_GameMode] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2018.03.04-01.26.58:840][583]LogBlueprint: Warning: [Compiler VR_GameMode] [4706.17] Compile of VR_GameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 206 ms] (/Game/Z_Folder/Blueprints/VR_GameMode.VR_GameMode)
+[2018.03.04-01.27.22:208][973]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-01.27.59:380][116]LogHttp: Warning: 000001E629B42B00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.27.59:381][116]LogHttp: Warning: 000001E629B42B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.27.59:381][116]LogHttp: Warning: 000001E629B42B00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.27.59:381][116]LogHttp: Warning: 000001E629B42B00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.27.59:381][116]LogHttp: Warning: 000001E629B42B00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.27.59:381][116]LogHttp: Warning: 000001E629B42B00: libcurl info message cache 4 (Closing connection 33)
+[2018.03.04-01.28.06:119][135]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.028
+[2018.03.04-01.28.06:121][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Z_Folder/Blueprints/VR_GameMode] ([1] browsable assets)...
+[2018.03.04-01.28.06:122][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_GameMode]
+[2018.03.04-01.28.06:283][135]LogSavePackage: Save=128.49ms
+[2018.03.04-01.28.06:283][135]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode_Auto4650E5FA24ED3D59737F738AA842705D6.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto4.uasset'
+[2018.03.04-01.28.06:286][135]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto4.uasset
+[2018.03.04-01.28.06:286][135]LogFileHelpers: Auto-saving content packages took 0.166
+[2018.03.04-01.28.24:530][448]LogSavePackage: Save=132.17ms
+[2018.03.04-01.28.24:530][448]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode809188A24CC9FE7BC0E37E91EC450B08.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-01.28.24:534][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-01.30.20:801][848]LogHttp: Warning: 000001E628016B00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.30.20:801][848]LogHttp: Warning: 000001E628016B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.30.20:801][848]LogHttp: Warning: 000001E628016B00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.30.20:801][848]LogHttp: Warning: 000001E628016B00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.30.20:801][848]LogHttp: Warning: 000001E628016B00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.30.20:801][848]LogHttp: Warning: 000001E628016B00: libcurl info message cache 4 (Closing connection 34)
+[2018.03.04-01.32.41:930][833]LogHttp: Warning: 000001E63E674400: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.32.41:930][833]LogHttp: Warning: 000001E63E674400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.32.41:930][833]LogHttp: Warning: 000001E63E674400: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.32.41:930][833]LogHttp: Warning: 000001E63E674400: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.32.41:930][833]LogHttp: Warning: 000001E63E674400: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.32.41:930][833]LogHttp: Warning: 000001E63E674400: libcurl info message cache 4 (Closing connection 35)
+[2018.03.04-01.38.06:827][198]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.031
+[2018.03.04-01.38.06:830][198]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Z_Folder/Blueprints/VR_GameMode] ([1] browsable assets)...
+[2018.03.04-01.38.06:830][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_GameMode]
+[2018.03.04-01.38.06:992][198]LogSavePackage: Save=127.57ms
+[2018.03.04-01.38.06:992][198]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode_Auto50E1B373B49A39F8782F0308BCA8E846D.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto5.uasset'
+[2018.03.04-01.38.06:996][198]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto5.uasset
+[2018.03.04-01.38.06:996][198]LogFileHelpers: Auto-saving content packages took 0.167
+[2018.03.04-01.47.19:942][193]LogHttp: Warning: 000001E5BEDD4580: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.47.19:942][193]LogHttp: Warning: 000001E5BEDD4580: libcurl info message cache 0 (Connection 38 seems to be dead!)
+[2018.03.04-01.47.19:942][193]LogHttp: Warning: 000001E5BEDD4580: libcurl info message cache 1 (Closing connection 38)
+[2018.03.04-01.47.19:942][193]LogHttp: Warning: 000001E5BEDD4580: libcurl info message cache 2 (  Trying 10.0.0.1...)
+[2018.03.04-01.47.19:942][193]LogHttp: Warning: 000001E5BEDD4580: libcurl info message cache 3 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.47.19:942][193]LogHttp: Warning: 000001E5BEDD4580: libcurl info message cache 4 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.47.19:942][193]LogHttp: Warning: 000001E5BEDD4580: libcurl info message cache 5 (Closing connection 39)
+[2018.03.04-01.48.07:668][335]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.035
+[2018.03.04-01.48.07:670][335]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Z_Folder/Blueprints/VR_GameMode] ([1] browsable assets)...
+[2018.03.04-01.48.07:670][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_GameMode]
+[2018.03.04-01.48.07:847][335]LogSavePackage: Save=140.98ms
+[2018.03.04-01.48.07:847][335]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode_Auto6D6B462DC4E4DA6828716F781A5157581.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto6.uasset'
+[2018.03.04-01.48.07:850][335]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto6.uasset
+[2018.03.04-01.48.07:850][335]LogFileHelpers: Auto-saving content packages took 0.181
+[2018.03.04-01.49.41:278][617]LogHttp: Warning: 000001E58F7DFD00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.49.41:278][617]LogHttp: Warning: 000001E58F7DFD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.49.41:278][617]LogHttp: Warning: 000001E58F7DFD00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.49.41:278][617]LogHttp: Warning: 000001E58F7DFD00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.49.41:278][617]LogHttp: Warning: 000001E58F7DFD00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.49.41:278][617]LogHttp: Warning: 000001E58F7DFD00: libcurl info message cache 4 (Closing connection 40)
+[2018.03.04-01.52.02:612][ 41]LogHttp: Warning: 000001E64320E080: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.52.02:612][ 41]LogHttp: Warning: 000001E64320E080: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.52.02:612][ 41]LogHttp: Warning: 000001E64320E080: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.52.02:612][ 41]LogHttp: Warning: 000001E64320E080: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.52.02:612][ 41]LogHttp: Warning: 000001E64320E080: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.52.02:612][ 41]LogHttp: Warning: 000001E64320E080: libcurl info message cache 4 (Closing connection 41)
+[2018.03.04-01.53.07:946][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.03.04-01.53.24:636][219]LogActorFactory: Actor Factory created Cube
+[2018.03.04-01.53.31:658][632]LogActorFactory: Actor Factory created Cube
+[2018.03.04-01.53.55:693][ 51]LogActorFactory: Actor Factory created Cube
+[2018.03.04-01.53.59:595][276]LogActorFactory: Actor Factory created Cube
+[2018.03.04-01.54.23:669][280]LogHttp: Warning: 000001E5BE9D8700: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.54.23:669][280]LogHttp: Warning: 000001E5BE9D8700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.54.23:669][280]LogHttp: Warning: 000001E5BE9D8700: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.54.23:669][280]LogHttp: Warning: 000001E5BE9D8700: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.54.23:669][280]LogHttp: Warning: 000001E5BE9D8700: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.54.23:669][280]LogHttp: Warning: 000001E5BE9D8700: libcurl info message cache 4 (Closing connection 42)
+[2018.03.04-01.55.00:717][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.03.04-01.56.44:824][208]LogHttp: Warning: 000001E628764880: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.56.44:824][208]LogHttp: Warning: 000001E628764880: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.56.44:824][208]LogHttp: Warning: 000001E628764880: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.56.44:824][208]LogHttp: Warning: 000001E628764880: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.56.44:824][208]LogHttp: Warning: 000001E628764880: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.56.44:824][208]LogHttp: Warning: 000001E628764880: libcurl info message cache 4 (Closing connection 43)
+[2018.03.04-01.58.09:495][174]LogSavePackage: Save=278.08ms
+[2018.03.04-01.58.09:495][174]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Level0144CAF6DB47539C12B8245DAD0763BD14.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap'
+[2018.03.04-01.58.09:501][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap
+[2018.03.04-01.58.09:559][174]LogFileHelpers: Saving map 'VR_Level01' took 0.476
+[2018.03.04-01.58.09:731][174]LogSavePackage: Save=129.75ms
+[2018.03.04-01.58.09:731][174]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode8E7543A345E72AB6EF36C2BCC31C7DC0.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-01.58.09:736][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-01.59.06:332][415]LogHttp: Warning: 000001E64ACC1A80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-01.59.06:332][415]LogHttp: Warning: 000001E64ACC1A80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-01.59.06:332][415]LogHttp: Warning: 000001E64ACC1A80: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-01.59.06:332][415]LogHttp: Warning: 000001E64ACC1A80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-01.59.06:332][415]LogHttp: Warning: 000001E64ACC1A80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-01.59.06:332][415]LogHttp: Warning: 000001E64ACC1A80: libcurl info message cache 4 (Closing connection 44)
+[2018.03.04-02.01.27:666][839]LogHttp: Warning: 000001E64ACC3880: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.01.27:667][839]LogHttp: Warning: 000001E64ACC3880: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.01.27:667][839]LogHttp: Warning: 000001E64ACC3880: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.01.27:667][839]LogHttp: Warning: 000001E64ACC3880: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.01.27:667][839]LogHttp: Warning: 000001E64ACC3880: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.01.27:667][839]LogHttp: Warning: 000001E64ACC3880: libcurl info message cache 4 (Closing connection 45)
+[2018.03.04-02.03.17:097][558]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-02.03.26:929][932]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-02.03.43:975][945]LogUObjectGlobals: Warning: Failed to find object 'Class None.None'
+[2018.03.04-02.03.47:047][ 15]LogSavePackage: Save=273.95ms
+[2018.03.04-02.03.47:047][ 15]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Level0140AA8E974982284879AC4E9E46B8B345.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap'
+[2018.03.04-02.03.47:052][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap
+[2018.03.04-02.03.47:098][ 15]LogFileHelpers: Saving map 'VR_Level01' took 0.460
+[2018.03.04-02.03.47:360][ 15]LogSavePackage: Save=216.10ms
+[2018.03.04-02.03.47:360][ 15]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_CharacterC2B7C9EC482152E289614C86098449E6.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.04-02.03.47:364][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.04-02.03.47:521][ 15]LogSavePackage: Save=116.69ms
+[2018.03.04-02.03.47:521][ 15]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeA8B0E3AC46BABBB39555AD82769DDDAE.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-02.03.47:526][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-02.03.48:706][ 86]LogHttp: Warning: 000001E64AD3BE80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.03.48:706][ 86]LogHttp: Warning: 000001E64AD3BE80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.03.48:706][ 86]LogHttp: Warning: 000001E64AD3BE80: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.03.48:706][ 86]LogHttp: Warning: 000001E64AD3BE80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.03.48:706][ 86]LogHttp: Warning: 000001E64AD3BE80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.03.48:706][ 86]LogHttp: Warning: 000001E64AD3BE80: libcurl info message cache 4 (Closing connection 46)
+[2018.03.04-02.06.10:223][786]LogHttp: Warning: 000001E64BD70100: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.06.10:223][786]LogHttp: Warning: 000001E64BD70100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.06.10:223][786]LogHttp: Warning: 000001E64BD70100: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.06.10:223][786]LogHttp: Warning: 000001E64BD70100: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.06.10:223][786]LogHttp: Warning: 000001E64BD70100: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.06.10:223][786]LogHttp: Warning: 000001E64BD70100: libcurl info message cache 4 (Closing connection 47)
+[2018.03.04-02.07.58:223][429]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-02.08.28:521][134]LogSavePackage: Save=275.53ms
+[2018.03.04-02.08.28:521][134]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Level013508F8A744908C82CE6372A98B2A545B.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap'
+[2018.03.04-02.08.28:530][134]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap
+[2018.03.04-02.08.28:579][134]LogFileHelpers: Saving map 'VR_Level01' took 0.468
+[2018.03.04-02.08.31:270][296]LogHttp: Warning: 000001E65B1E7D00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.08.31:270][296]LogHttp: Warning: 000001E65B1E7D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.08.31:270][296]LogHttp: Warning: 000001E65B1E7D00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.08.31:270][296]LogHttp: Warning: 000001E65B1E7D00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.08.31:270][296]LogHttp: Warning: 000001E65B1E7D00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.08.31:270][296]LogHttp: Warning: 000001E65B1E7D00: libcurl info message cache 4 (Closing connection 48)
+[2018.03.04-02.10.52:612][518]LogHttp: Warning: 000001E64BE91480: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.10.52:612][518]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.10.52:613][518]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.10.52:613][518]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.10.52:613][518]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.10.52:613][518]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 4 (Closing connection 49)
+[2018.03.04-02.13.03:073][193]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-02.13.04:139][254]LogUObjectGlobals: Warning: Failed to find object 'Class None.None'
+[2018.03.04-02.13.08:070][400]LogSavePackage: Save=143.85ms
+[2018.03.04-02.13.08:070][400]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameModeA349029747ADCBD9CD365C99460752D7.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-02.13.08:076][400]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-02.13.13:628][734]LogHttp: Warning: 000001E64BE91480: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.13.13:628][734]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.13.13:628][734]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.13.13:628][734]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.13.13:628][734]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.13.13:628][734]LogHttp: Warning: 000001E64BE91480: libcurl info message cache 4 (Closing connection 50)
+[2018.03.04-02.15.35:174][981]LogHttp: Warning: 000001E62965B580: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.15.35:174][981]LogHttp: Warning: 000001E62965B580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.15.35:174][981]LogHttp: Warning: 000001E62965B580: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.15.35:174][981]LogHttp: Warning: 000001E62965B580: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.15.35:174][981]LogHttp: Warning: 000001E62965B580: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.15.35:174][981]LogHttp: Warning: 000001E62965B580: libcurl info message cache 4 (Closing connection 51)
+[2018.03.04-02.16.23:645][761]BlueprintLog: New page: Compile VR_GameMode
+[2018.03.04-02.17.56:193][276]LogHttp: Warning: 000001E63769DF00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.17.56:193][276]LogHttp: Warning: 000001E63769DF00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.17.56:193][276]LogHttp: Warning: 000001E63769DF00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.17.56:193][276]LogHttp: Warning: 000001E63769DF00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.17.56:193][276]LogHttp: Warning: 000001E63769DF00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.17.56:194][276]LogHttp: Warning: 000001E63769DF00: libcurl info message cache 4 (Closing connection 52)
+[2018.03.04-02.20.17:227][736]LogHttp: Warning: 000001E63769E200: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.20.17:228][736]LogHttp: Warning: 000001E63769E200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.20.17:228][736]LogHttp: Warning: 000001E63769E200: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.20.17:228][736]LogHttp: Warning: 000001E63769E200: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.20.17:228][736]LogHttp: Warning: 000001E63769E200: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.20.17:228][736]LogHttp: Warning: 000001E63769E200: libcurl info message cache 4 (Closing connection 53)
+[2018.03.04-02.20.27:634][349]BlueprintLog: New page: Compile VR_Character
+[2018.03.04-02.20.29:044][374]LogSavePackage: Save=242.04ms
+[2018.03.04-02.20.29:044][374]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_Character820E8739441C83A6757938BC10299E79.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.04-02.20.29:048][374]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.04-02.22.38:568][393]LogHttp: Warning: 000001E6290DE080: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.22.38:568][393]LogHttp: Warning: 000001E6290DE080: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.22.38:568][393]LogHttp: Warning: 000001E6290DE080: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.22.38:568][393]LogHttp: Warning: 000001E6290DE080: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.22.38:568][393]LogHttp: Warning: 000001E6290DE080: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.22.38:568][393]LogHttp: Warning: 000001E6290DE080: libcurl info message cache 4 (Closing connection 54)
+[2018.03.04-02.23.22:574][566]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.04-02.23.46:448][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.04-02.23.47:563][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.04-02.23.48:585][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.04-02.23.49:776][146]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.030
+[2018.03.04-02.23.49:781][146]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Z_Folder/Blueprints/VR_GameMode] ([1] browsable assets)...
+[2018.03.04-02.23.49:781][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_GameMode]
+[2018.03.04-02.23.49:961][146]LogSavePackage: Save=143.63ms
+[2018.03.04-02.23.49:961][146]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode_Auto703627D7245547A0336215FB9D1988C3E.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto7.uasset'
+[2018.03.04-02.23.49:963][146]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_GameMode_Auto7.uasset
+[2018.03.04-02.23.49:963][146]LogFileHelpers: Auto-saving content packages took 0.183
+[2018.03.04-02.24.59:942][533]LogHttp: Warning: 000001E613D76500: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.24.59:942][533]LogHttp: Warning: 000001E613D76500: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.24.59:942][533]LogHttp: Warning: 000001E613D76500: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.24.59:942][533]LogHttp: Warning: 000001E613D76500: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.24.59:942][533]LogHttp: Warning: 000001E613D76500: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.24.59:942][533]LogHttp: Warning: 000001E613D76500: libcurl info message cache 4 (Closing connection 55)
+[2018.03.04-02.25.32:251][ 42]LogUObjectGlobals: Warning: Failed to find object 'Class None.None'
+[2018.03.04-02.25.34:086][148]LogTemp: Repeating last play command: VR Preview
+[2018.03.04-02.25.34:122][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-02.25.34:123][148]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.04-02.25.34:150][148]LogPlayLevel: [PlayLevel] Compiling VR_GameMode before play...
+[2018.03.04-02.25.34:222][148]LogPlayLevel: [PlayLevel] Compiling MyGameMode before play...
+[2018.03.04-02.25.34:276][148]LogPlayLevel: PlayLevel: Blueprint regeneration took 153 ms (2 blueprints)
+[2018.03.04-02.25.34:277][148]PIE: New page: PIE session: VR_Level01 (Mar 3, 2018, 4:25:34 PM)
+[2018.03.04-02.25.34:277][148]LogPlayLevel: Creating play world package: /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01
+[2018.03.04-02.25.34:286][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008493s)
+[2018.03.04-02.25.34:286][148]LogAIModule: Creating AISystem for world VR_Level01
+[2018.03.04-02.25.34:287][148]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2018.03.04-02.25.34:287][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01 to /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01.VR_Level01 (0.009677s)
+[2018.03.04-02.25.34:330][148]LogInit: XAudio2 using 'HTC-VIVE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.04-02.25.34:340][148]LogInit: FAudioDevice initialized.
+[2018.03.04-02.25.34:974][148]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-25FB5BEE
+[2018.03.04-02.25.35:017][148]LogLoad: Game class is 'VR_GameMode_C'
+[2018.03.04-02.25.35:023][148]LogWorld: Bringing World /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01.VR_Level01 up for play (max tick rate 0) at 2018.03.03-21.25.35
+[2018.03.04-02.25.35:023][148]LogWorld: Bringing up level for play took: 0.003114
+[2018.03.04-02.25.35:036][148]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.03.04-02.25.35:037][148]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-02.25.35:037][148]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-02.25.35:037][148]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-02.25.35:041][148]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-02.25.35:046][148]PIE: Play in editor start time for /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01 0.184
+[2018.03.04-02.25.35:047][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-02.25.39:293][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-02.25.39:325][372]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-02.25.39:325][372]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.04-02.25.39:326][372]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.04-02.25.39:326][372]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.04-02.25.39:326][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.04-02.25.39:326][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-02.25.39:586][373]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.03.04-02.25.39:586][373]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-02.26.33:848][525]LogTemp: Repeating last play command: VR Preview
+[2018.03.04-02.26.33:874][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-02.26.33:875][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.04-02.26.33:875][525]PIE: New page: PIE session: VR_Level01 (Mar 3, 2018, 4:26:33 PM)
+[2018.03.04-02.26.33:875][525]LogPlayLevel: Creating play world package: /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01
+[2018.03.04-02.26.33:884][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008220s)
+[2018.03.04-02.26.33:884][525]LogAIModule: Creating AISystem for world VR_Level01
+[2018.03.04-02.26.33:885][525]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2018.03.04-02.26.33:885][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01 to /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01.VR_Level01 (0.009768s)
+[2018.03.04-02.26.33:918][525]LogInit: XAudio2 using 'HTC-VIVE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.04-02.26.33:927][525]LogInit: FAudioDevice initialized.
+[2018.03.04-02.26.34:015][525]LogLoad: Game class is 'VR_GameMode_C'
+[2018.03.04-02.26.34:020][525]LogWorld: Bringing World /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01.VR_Level01 up for play (max tick rate 0) at 2018.03.03-21.26.34
+[2018.03.04-02.26.34:020][525]LogWorld: Bringing up level for play took: 0.003003
+[2018.03.04-02.26.34:032][525]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.03.04-02.26.34:034][525]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-02.26.34:034][525]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-02.26.34:034][525]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-02.26.34:037][525]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-02.26.34:043][525]PIE: Play in editor start time for /Game/Z_Folder/Blueprints/Map/UEDPIE_0_VR_Level01 -0.819
+[2018.03.04-02.26.34:044][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-02.26.59:925][706]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-02.26.59:958][706]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-02.26.59:958][706]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.04-02.26.59:959][706]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.04-02.26.59:959][706]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.04-02.26.59:959][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.04-02.26.59:959][706]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01' with GeneratedClass '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01_C' with ClassGeneratedBy '/Game/Z_Folder/Blueprints/Map/VR_Level01.VR_Level01:PersistentLevel.VR_Level01'
+[2018.03.04-02.27.00:219][707]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.03.04-02.27.00:219][707]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.04-02.27.21:055][825]LogHttp: Warning: 000001E639F31000: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.27.21:055][825]LogHttp: Warning: 000001E639F31000: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.27.21:055][825]LogHttp: Warning: 000001E639F31000: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.27.21:055][825]LogHttp: Warning: 000001E639F31000: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.27.21:055][825]LogHttp: Warning: 000001E639F31000: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.27.21:055][825]LogHttp: Warning: 000001E639F31000: libcurl info message cache 4 (Closing connection 56)
+[2018.03.04-02.29.40:982][ 79]BlueprintLog: New page: Compile VR_PlayerController
+[2018.03.04-02.29.42:088][126]LogHttp: Warning: 000001E60FAD7100: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.29.42:088][126]LogHttp: Warning: 000001E60FAD7100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.29.42:088][126]LogHttp: Warning: 000001E60FAD7100: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.29.42:088][126]LogHttp: Warning: 000001E60FAD7100: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.29.42:088][126]LogHttp: Warning: 000001E60FAD7100: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.29.42:088][126]LogHttp: Warning: 000001E60FAD7100: libcurl info message cache 4 (Closing connection 57)
+[2018.03.04-02.30.57:728][138]LogSavePackage: Save=119.68ms
+[2018.03.04-02.30.57:728][138]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_GameMode3857E37B4A8661E840C4CCB739E90C4A.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset'
+[2018.03.04-02.30.57:732][138]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_GameMode.uasset
+[2018.03.04-02.30.57:838][138]LogSavePackage: Save=69.71ms
+[2018.03.04-02.30.57:838][138]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_PlayerControllerEB01AF1E4EDC038F6833C5A524AFDFF9.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_PlayerController.uasset'
+[2018.03.04-02.30.57:841][138]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_PlayerController.uasset
+[2018.03.04-02.31.00:106][271]BlueprintLog: New page: Compile VR_PlayerController
+[2018.03.04-02.31.15:995][185]BlueprintLog: New page: Compile VR_PlayerController
+[2018.03.04-02.31.18:631][313]LogSavePackage: Save=77.92ms
+[2018.03.04-02.31.18:631][313]LogSavePackage: Moving '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Saved/VR_PlayerControllerA2968E19426A0CC7E7DD0681AB5588B3.tmp' to '../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_PlayerController.uasset'
+[2018.03.04-02.31.18:635][313]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Cosmotron/Documents/Unreal Projects/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_PlayerController.uasset
+[2018.03.04-02.31.20:455][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.04-02.31.21:472][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.04-02.32.03:473][772]LogHttp: Warning: 000001E650193100: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.32.03:473][772]LogHttp: Warning: 000001E650193100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.32.03:473][772]LogHttp: Warning: 000001E650193100: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.32.03:473][772]LogHttp: Warning: 000001E650193100: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.32.03:473][772]LogHttp: Warning: 000001E650193100: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.32.03:473][772]LogHttp: Warning: 000001E650193100: libcurl info message cache 4 (Closing connection 58)
+[2018.03.04-02.34.24:808][196]LogHttp: Warning: 000001E631F6AE00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.04-02.34.24:808][196]LogHttp: Warning: 000001E631F6AE00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.04-02.34.24:808][196]LogHttp: Warning: 000001E631F6AE00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.03.04-02.34.24:808][196]LogHttp: Warning: 000001E631F6AE00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.03.04-02.34.24:808][196]LogHttp: Warning: 000001E631F6AE00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.04-02.34.24:808][196]LogHttp: Warning: 000001E631F6AE00: libcurl info message cache 4 (Closing connection 59)
