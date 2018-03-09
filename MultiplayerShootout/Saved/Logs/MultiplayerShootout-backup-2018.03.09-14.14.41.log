@@ -1,0 +1,904 @@
+﻿Log file open, 03/09/18 12:22:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MultiplayerShootout
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(346329742) SRandInit(346329742).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.158738
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager: Warning: No filename provided for module OnlineSubsystemSteam
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/' was not found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.09-17.22.39:323][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.09-17.22.39:323][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.09-17.22.39:335][  0]LogInit: Computer: EDS-SUPER-POTAT
+[2018.03.09-17.22.39:335][  0]LogInit: User: Edward
+[2018.03.09-17.22.39:335][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.03.09-17.22.39:335][  0]LogInit: High frequency timer resolution =2.433500 MHz
+[2018.03.09-17.22.39:336][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.09-17.22.39:336][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.09-17.22.39:336][  0]LogMemory: Process Physical Memory: 274.98 MB used, 274.98 MB peak
+[2018.03.09-17.22.39:336][  0]LogMemory: Process Virtual Memory: 269.53 MB used, 269.53 MB peak
+[2018.03.09-17.22.39:336][  0]LogMemory: Physical Memory: 3621.23 MB used,  4454.00 MB free, 8075.23 MB total
+[2018.03.09-17.22.39:336][  0]LogMemory: Virtual Memory: 676.10 MB used,  4454.00 MB free, 134217728.00 MB total
+[2018.03.09-17.22.39:594][  0]LogInit: Using OS detected language (en-US).
+[2018.03.09-17.22.39:595][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.09-17.22.39:598][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.09-17.22.40:349][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.09-17.22.40:868][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.09-17.22.40:871][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2018.03.09-17.22.40:871][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.09-17.22.40:874][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.09-17.22.40:874][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.09-17.22.40:874][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.09-17.22.40:881][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.09-17.22.40:881][  0]LogD3D11RHI:     GPU DeviceId: 0x126 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.09-17.22.40:881][  0]LogWindows: EnumDisplayDevices:
+[2018.03.09-17.22.40:882][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
+[2018.03.09-17.22.40:882][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2018.03.09-17.22.40:882][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.09-17.22.40:882][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2018.03.09-17.22.40:882][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.09-17.22.40:882][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.09-17.22.40:882][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2018.03.09-17.22.40:885][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.09-17.22.40:905][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
+[2018.03.09-17.22.40:906][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Intermediate/Shaders/WorkingDirectory/8584/).
+[2018.03.09-17.22.40:906][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Edward/AppData/Local/Temp/UnrealShaderWorkingDir/2D56D69C43652EB4202AC79207DFD58C/'.
+[2018.03.09-17.22.40:906][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.09-17.22.43:067][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.09-17.22.43:182][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.09-17.22.43:302][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.09-17.22.43:408][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.09-17.22.43:524][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.09-17.22.43:634][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.09-17.22.43:753][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.09-17.22.43:889][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.09-17.22.43:982][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.09-17.22.44:108][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.09-17.22.44:226][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.09-17.22.44:335][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.09-17.22.44:452][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.09-17.22.44:541][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.09-17.22.44:731][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.09-17.22.44:731][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.09-17.22.44:814][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.09-17.22.44:884][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.09-17.22.45:029][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.09-17.22.45:076][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.09-17.22.45:159][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.09-17.22.45:249][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.09-17.22.45:341][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.09-17.22.45:431][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.09-17.22.45:431][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.09-17.22.46:267][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.09-17.22.46:366][  0]LogDerivedDataCache: Loaded boot cache 0.10s 76MB C:/Users/Edward/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.09-17.22.46:366][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Edward/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.09-17.22.46:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.09-17.22.46:366][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.09-17.22.46:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.09-17.22.46:366][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.09-17.22.46:393][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.09-17.22.46:405][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Edward/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.09-17.22.46:415][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM4
+[2018.03.09-17.22.46:415][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.09-17.22.46:416][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.09-17.22.46:416][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.09-17.22.47:095][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.09-17.22.47:683][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.09-17.22.47:763][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.09-17.22.47:763][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.09-17.22.47:763][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.09-17.22.47:763][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.09-17.22.47:763][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.09-17.22.47:815][  0]LogNetVersion: MultiplayerShootout , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2187402621)
+[2018.03.09-17.22.47:989][  0]Warning: Missing opening '"' in string property value: ThirdParty/Steamworks)
+[2018.03.09-17.22.48:093][  0]LogAssetRegistry: FAssetRegistry took 0.0290 seconds to start up
+[2018.03.09-17.22.48:936][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.069841 seconds
+[2018.03.09-17.22.48:945][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.09-17.22.48:946][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.09-17.22.48:946][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.09-17.22.53:859][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.09-17.22.53:932][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.09-17.22.55:006][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.09-17.22.55:686][  0]SourceControl: Source control is disabled
+[2018.03.09-17.22.55:686][  0]SourceControl: Source control is disabled
+[2018.03.09-17.22.55:771][  0]SourceControl: Source control is disabled
+[2018.03.09-17.22.55:871][  0]SourceControl: Source control is disabled
+[2018.03.09-17.22.57:120][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.09-17.22.57:559][  0]LogOcInput: OculusInput pre-init called
+[2018.03.09-17.22.58:032][  0]LogEngine: Initializing Engine...
+[2018.03.09-17.22.58:036][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.09-17.22.58:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.09-17.22.58:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.09-17.22.58:553][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.09-17.22.58:563][  0]LogInit: XAudio2 using 'Speakers (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-17.22.58:585][  0]LogInit: FAudioDevice initialized.
+[2018.03.09-17.22.58:748][  0]LogDerivedDataCache: Saved boot cache 0.16s 76MB C:/Users/Edward/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.09-17.22.58:760][  0]LogInit: Texture streaming: Enabled
+[2018.03.09-17.22.58:932][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.09-17.22.58:932][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={F7E848A3-4CCD-1B0B-9613-239CD52B83FF}
+[2018.03.09-17.22.59:193][  0]LogInit: Transaction tracking system initialized
+[2018.03.09-17.22.59:885][  0]BlueprintLog: New page: Editor Load
+[2018.03.09-17.23.02:017][  0]LocalizationService: Localization service is disabled
+[2018.03.09-17.23.04:014][  0]LogConsoleResponse: Display: 
+[2018.03.09-17.23.04:354][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.09-17.23.04:354][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.09-17.23.04:354][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.09-17.23.05:394][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/' took 0.02s
+[2018.03.09-17.23.06:691][  0]SourceControl: Source control is disabled
+[2018.03.09-17.23.06:691][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/Map/VR_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2018.03.09-17.23.06:692][  0]LightingResults: New page: Lighting Build
+[2018.03.09-17.23.06:764][  0]MapCheck: New page: Map Check
+[2018.03.09-17.23.06:764][  0]LightingResults: New page: Lighting Build
+[2018.03.09-17.23.07:824][  0]LogAIModule: Creating AISystem for world VR_Level01
+[2018.03.09-17.23.07:842][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.09-17.23.07:918][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.09-17.23.07:996][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.945ms to complete.
+[2018.03.09-17.23.07:996][  0]LogFileHelpers: Loading map 'VR_Level01' took 1.305
+[2018.03.09-17.23.08:162][  0]LogCollectionManager: Loaded 0 collections in 0.004134 seconds
+[2018.03.09-17.23.08:279][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Collections/' took 0.01s
+[2018.03.09-17.23.08:279][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Developers/Edward/Collections/' took 0.01s
+[2018.03.09-17.23.08:279][  0]LogFileCache: Scanning file cache for directory 'C:/Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Collections/' took 0.01s
+[2018.03.09-17.23.08:279][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.09-17.23.08:294][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2363 classes and 519 folders.
+[2018.03.09-17.23.08:423][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.09-17.23.08:496][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.09-17.23.08:609][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.09-17.23.08:805][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.09-17.23.08:805][  0]LogLoad: (Engine Initialization) Total time: 33.38 seconds
+[2018.03.09-17.23.08:805][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.09-17.23.08:805][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.09-17.23.08:805][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.09-17.23.09:160][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.03.09-17.23.09:162][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.09-17.23.09:166][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.09-17.23.09:356][  2]LogRenderer: Reallocating scene render targets to support 924x452 Format 9 NumSamples 1 (Frame:1).
+[2018.03.09-17.23.12:856][  2]LogAssetRegistry: Asset discovery search completed in 24.7845 seconds
+[2018.03.09-17.23.12:861][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.09-17.23.12:861][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2018.03.09-17.23.13:223][  3]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.09-17.23.15:351][ 87]LogRenderer: Reallocating scene render targets to support 988x452 Format 9 NumSamples 1 (Frame:42).
+[2018.03.09-17.23.17:104][144]LogBlueprint: Error: [Compiler VR_Character] In use pin  <Unnamed>  no longer exists on node  Check For HMD Device . Please refresh node or break links to remove pin.
+[2018.03.09-17.23.17:105][144]LogBlueprint: Error: [Compiler VR_Character] In use pin  <Unnamed>  no longer exists on node  Check For HMD Device . Please refresh node or break links to remove pin.
+[2018.03.09-17.23.17:105][144]LogBlueprint: Error: [Compiler VR_Character] In use pin  Detection Result  no longer exists on node  Check For HMD Device . Please refresh node or break links to remove pin.
+[2018.03.09-17.23.17:105][144]LogBlueprint: Error: [Compiler VR_Character] Could not find a function named "Check for HMD Device" in 'VR_Character_C'.
+Make sure 'VR_Character_C' has been compiled for  Check For HMD Device
+[2018.03.09-17.23.17:131][144]LogBlueprint: Warning: [Compiler Interaction_Hand] Sequence  has no valid output
+[2018.03.09-17.23.17:169][144]LogBlueprint: Warning: [Compiler Interaction_Hand] [0041.75] Compile of Interaction_Hand successful, but with 1 Warning(s) [in 157 ms] (/Game/Z_Folder/Blueprints/VR_Character/Interaction_Hand.Interaction_Hand)
+[2018.03.09-17.23.17:169][144]LogBlueprint: Warning: [Compiler VR_Character] [0041.75] Compile of VR_Character failed. 4 Fatal Issue(s) 0 Warning(s) [in 157 ms] (/Game/Z_Folder/Blueprints/VR_Character/VR_Character.VR_Character)
+[2018.03.09-17.23.17:605][144]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.09-17.23.18:043][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator0' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:043][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator1' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:043][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator2' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:043][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator3' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:044][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::VR_MAX' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:044][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator0' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:044][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator1' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:044][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator2' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:044][144]LogEnum: Warning: Enum name collision: 'VR_GripEnum::NewEnumerator3' is in both '/Game/Z_Folder/Blueprints/VR_GripEnum.VR_GripEnum' and '/Game/VirtualRealityBP/Blueprints/VR_GripEnum.VR_GripEnum'
+[2018.03.09-17.23.18:120][144]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2018.03.09-17.23.19:878][144]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.09-17.23.19:952][145]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.09-17.23.25:424][665]LogRenderer: Reallocating scene render targets to support 1360x452 Format 9 NumSamples 1 (Frame:1).
+[2018.03.09-17.24.10:857][801]LogSavePackage: Save=501.83ms
+[2018.03.09-17.24.10:857][801]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character9D0CEAEE4093CD33E5E97898A71EC91F.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.24.10:860][801]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.25.19:636][662]LogSavePackage: Save=525.27ms
+[2018.03.09-17.25.19:636][662]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterB9C574F4426FAB175FCEE1BCB781F59F.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.25.19:639][662]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.26.11:434][571]LogSavePackage: Save=471.00ms
+[2018.03.09-17.26.11:434][571]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character3447D8424607EA91CFC5869D73360337.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.26.11:436][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.29.08:284][169]LogSavePackage: Save=446.35ms
+[2018.03.09-17.29.08:284][169]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character40043DC44F67071444BE6E999A116BC1.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.29.08:286][169]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.30.48:718][905]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.09-17.33.09:912][737]LogSavePackage: Save=554.77ms
+[2018.03.09-17.33.09:912][737]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character326C8DE143D6B0DE5AE2129A8D5642AE.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.33.09:915][737]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.34.53:266][ 18]LogSavePackage: Save=573.72ms
+[2018.03.09-17.34.53:266][ 18]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character1B8E5ADB4B9AF77E25AAA29B41E09764.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.34.53:269][ 18]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.35.57:428][924]LogEditorTransaction: Undo Promote To Variable
+[2018.03.09-17.36.46:143][332]LogSavePackage: Save=569.88ms
+[2018.03.09-17.36.46:144][332]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character617CE6DC46D8291E3FCCBEA74E1C40B9.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.36.46:147][332]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.38.13:104][709]LogSavePackage: Save=561.57ms
+[2018.03.09-17.38.13:104][709]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character94E95DE9433E7F07E37377A689A7F7F7.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.38.13:108][709]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.38.24:407][634]LogSavePackage: Save=585.55ms
+[2018.03.09-17.38.24:408][634]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character36B97B4C413515C2A3AE0488F2E1CE5C.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.38.24:410][634]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.38.42:429][ 63]LogSavePackage: Save=608.97ms
+[2018.03.09-17.38.42:429][ 63]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterD91B5CA1419214EB241E4980BF230808.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.38.42:431][ 63]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.40.06:068][442]LogEditorTransaction: Undo Move Node
+[2018.03.09-17.40.34:347][431]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.063
+[2018.03.09-17.40.34:350][431]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character] ([1] browsable assets)...
+[2018.03.09-17.40.34:380][431]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Z_Folder/Blueprints/VR_Character/VR_Character.VR_Character]
+[2018.03.09-17.40.34:380][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character]
+[2018.03.09-17.40.34:898][431]LogSavePackage: Save=479.07ms
+[2018.03.09-17.40.34:898][431]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character_Auto17993874C4EF2ADE7404C42B5A31E6E8E.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto1.uasset'
+[2018.03.09-17.40.34:899][431]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto1.uasset
+[2018.03.09-17.40.34:900][431]LogFileHelpers: Auto-saving content packages took 0.552
+[2018.03.09-17.42.28:255][106]LogEditorTransaction: Undo Move Nodes
+[2018.03.09-17.42.36:710][909]LogSavePackage: Save=545.28ms
+[2018.03.09-17.42.36:710][909]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterB1CF21F040E5424B544CB98F0E5B2B3C.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.42.36:713][909]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.42.44:310][686]LogSavePackage: Save=500.36ms
+[2018.03.09-17.42.44:310][686]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character26CB9D3A479F84C579C15BAE12393989.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.42.44:311][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.43.32:476][782]LogSavePackage: Save=521.24ms
+[2018.03.09-17.43.32:476][782]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character57E75305445438BBD88D64BD29E951B1.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.43.32:479][782]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.43.43:106][782]LogSavePackage: Save=520.34ms
+[2018.03.09-17.43.43:106][782]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character0423A3F041AA4E2C5973559E522CA3D6.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.43.43:109][782]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.50.41:592][530]LogSavePackage: Save=476.47ms
+[2018.03.09-17.50.41:592][530]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character43FFC3D74E913182E4E884AF6F2767D1.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.50.41:595][530]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-17.51.24:805][661]LogSavePackage: Save=496.87ms
+[2018.03.09-17.51.24:805][661]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterCEE0F2D84B740C833B919E86B60764EC.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-17.51.24:808][661]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.02.48:371][629]LogSavePackage: Save=476.30ms
+[2018.03.09-18.02.48:371][629]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character8F88A3AA46BDB7C8B70792AE67FDD554.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.02.48:372][629]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.13.51:009][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.052
+[2018.03.09-18.13.51:012][454]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character] ([1] browsable assets)...
+[2018.03.09-18.13.51:101][454]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Z_Folder/Blueprints/VR_Character/VR_Character.VR_Character]
+[2018.03.09-18.13.51:101][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character]
+[2018.03.09-18.13.51:684][454]LogSavePackage: Save=527.90ms
+[2018.03.09-18.13.51:684][454]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character_Auto2A8B7435D40A66D84BC2F90AA91BBAEBD.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto2.uasset'
+[2018.03.09-18.13.51:685][454]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto2.uasset
+[2018.03.09-18.13.51:685][454]LogFileHelpers: Auto-saving content packages took 0.675
+[2018.03.09-18.13.51:686][454]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.09-18.15.17:781][ 75]LogSavePackage: Save=535.10ms
+[2018.03.09-18.15.17:782][ 75]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterBE04ABF74B2CE1457762A48B31D33FE4.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.15.17:784][ 75]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.16.40:938][796]LogSavePackage: Save=547.30ms
+[2018.03.09-18.16.40:938][796]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character9258931D4B764138DB265E8119EB6231.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.16.40:940][796]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.17.13:074][583]BlueprintLog: New page: Collapse to Macro
+[2018.03.09-18.17.34:234][462]LogSavePackage: Save=543.09ms
+[2018.03.09-18.17.34:235][462]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterE6D74C0B417F07B381BF5DB93ABEB6D4.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.17.34:238][462]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.18.09:704][643]LogEditorTransaction: Undo Straighten Connection(s)
+[2018.03.09-18.18.14:443][956]LogSavePackage: Save=536.78ms
+[2018.03.09-18.18.14:443][956]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character1C961D8E4BDE08CDB98A6F92814AD424.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.18.14:446][956]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.18.21:685][656]LogSavePackage: Save=521.43ms
+[2018.03.09-18.18.21:685][656]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character363B3E954703D6A54D4C7E924D9BEF85.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.18.21:688][656]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.18.26:375][ 87]LogSavePackage: Save=520.65ms
+[2018.03.09-18.18.26:376][ 87]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character0C126DB64249CE7F8A589680A682B6C9.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.18.26:378][ 87]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.19.22:550][420]LogSavePackage: Save=519.88ms
+[2018.03.09-18.19.22:550][420]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character2C4478694D7D6256349D07B500F2D1C4.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.19.22:552][420]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.19.40:127][967]LogSavePackage: Save=526.92ms
+[2018.03.09-18.19.40:127][967]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character15AB7A764B760DF5E44C5DA6E981451D.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.19.40:131][967]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.20.19:583][364]LogSavePackage: Save=546.06ms
+[2018.03.09-18.20.19:583][364]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character6B4AE0244397B399E114CE860EE9C3D4.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.20.19:586][364]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.21.20:160][998]LogSavePackage: Save=522.85ms
+[2018.03.09-18.21.20:160][998]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterBBF45F854102C69D5023C5AD43AE10CD.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.21.20:162][998]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.22.00:703][ 48]LogSavePackage: Save=534.57ms
+[2018.03.09-18.22.00:703][ 48]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character42EDC73144BE2C958DF888938E970A4B.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.22.00:706][ 48]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.23.15:632][353]LogSavePackage: Save=538.65ms
+[2018.03.09-18.23.15:633][353]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character09F07426438520308AC6918DD1A8EB04.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.23.15:635][353]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.23.40:550][874]LogSavePackage: Save=503.34ms
+[2018.03.09-18.23.40:550][874]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterDC2798D141D7E19A374A5DB4DB19E6F8.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.23.40:553][874]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.24.59:795][957]LogSavePackage: Save=542.08ms
+[2018.03.09-18.24.59:796][957]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character422FA38D4E2849EC4D4748B3D53FBF41.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.24.59:798][957]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.25.12:467][801]LogSavePackage: Save=553.98ms
+[2018.03.09-18.25.12:467][801]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character1BB7269441A2E6824921899679332D74.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.25.12:470][801]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.30.23:210][ 29]BlueprintLog: New page: Collapse to Function
+[2018.03.09-18.30.23:260][ 29]LogBlueprint: Warning: [VR_Character] Warning: Pin 'self2' on boundary node 'K2Node_Tunnel_148' could not be found in the composite node 'Default__EdGraphSchema_K2'
+[2018.03.09-18.32.00:240][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.077
+[2018.03.09-18.32.00:243][774]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character] ([1] browsable assets)...
+[2018.03.09-18.32.00:274][774]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Z_Folder/Blueprints/VR_Character/VR_Character.VR_Character]
+[2018.03.09-18.32.00:274][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character]
+[2018.03.09-18.32.00:787][774]LogSavePackage: Save=473.61ms
+[2018.03.09-18.32.00:787][774]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character_Auto3C36863844B263E7D53FC329F2E843580.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto3.uasset'
+[2018.03.09-18.32.00:789][774]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto3.uasset
+[2018.03.09-18.32.00:789][774]LogFileHelpers: Auto-saving content packages took 0.548
+[2018.03.09-18.35.25:689][904]LogSavePackage: Save=525.74ms
+[2018.03.09-18.35.25:690][904]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character203C0AA7462B1B03E1D742B86DF7E219.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.35.25:692][904]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.35.55:539][660]LogSavePackage: Save=491.97ms
+[2018.03.09-18.35.55:539][660]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character766126BA4268882DAEF1E6B30D08245F.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.35.55:542][660]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.42.19:043][448]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.048
+[2018.03.09-18.42.19:046][448]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character] ([1] browsable assets)...
+[2018.03.09-18.42.19:081][448]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Z_Folder/Blueprints/VR_Character/VR_Character.VR_Character]
+[2018.03.09-18.42.19:082][448]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character]
+[2018.03.09-18.42.19:621][448]LogSavePackage: Save=500.02ms
+[2018.03.09-18.42.19:621][448]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character_Auto4B68A9A2B49693B22CCCD13A590705B20.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto4.uasset'
+[2018.03.09-18.42.19:623][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto4.uasset
+[2018.03.09-18.42.19:623][448]LogFileHelpers: Auto-saving content packages took 0.578
+[2018.03.09-18.45.15:117][528]LogSavePackage: Save=484.42ms
+[2018.03.09-18.45.15:117][528]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterE52A7A5C4585E78722D66892DDA297BB.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.45.15:119][528]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.46.17:414][753]LogSavePackage: Save=490.09ms
+[2018.03.09-18.46.17:414][753]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character86D5F21D4DFD5CBAC34ADCA24D0BA4B5.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.46.17:417][753]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.46.24:072][ 19]LogSavePackage: Save=489.31ms
+[2018.03.09-18.46.24:072][ 19]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character7A0F8CA64BA5361CC252CC9B11055776.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.46.24:074][ 19]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.47.52:082][166]LogSavePackage: Save=508.99ms
+[2018.03.09-18.47.52:082][166]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character1E42BB404D49126639C2D7B9EED6B7F4.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.47.52:084][166]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.50.18:063][887]BlueprintLog: New page: Collapse to Macro
+[2018.03.09-18.52.35:608][139]LogSavePackage: Save=466.06ms
+[2018.03.09-18.52.35:608][139]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character955427BD4F7C30CE9F8F838CC1BA635C.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.52.35:610][139]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.52.39:938][369]LogSavePackage: Save=446.32ms
+[2018.03.09-18.52.39:938][369]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterD78C605643654A6EDCEF95AF3F3BC1FE.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.52.39:941][369]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.56.03:536][630]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Z_Folder/Blueprints/Map/VR_Level01' took 0.225
+[2018.03.09-18.56.03:546][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character] ([1] browsable assets)...
+[2018.03.09-18.56.03:660][630]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Z_Folder/Blueprints/VR_Character/VR_Character.VR_Character]
+[2018.03.09-18.56.03:660][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Z_Folder/Blueprints/VR_Character/VR_Character]
+[2018.03.09-18.56.04:768][630]LogSavePackage: Save=919.97ms
+[2018.03.09-18.56.04:768][630]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character_Auto58A30FC3A41140F75B0A69BBBF398B9C2.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto5.uasset'
+[2018.03.09-18.56.04:769][630]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Autosaves/Game/Z_Folder/Blueprints/VR_Character/VR_Character_Auto5.uasset
+[2018.03.09-18.56.04:769][630]LogFileHelpers: Auto-saving content packages took 1.229
+[2018.03.09-18.57.03:842][ 29]LogSavePackage: Save=455.30ms
+[2018.03.09-18.57.03:842][ 29]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character0DA2CCF540C0689006E6D6A0E406BDF9.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.57.03:845][ 29]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.57.13:156][408]LogSavePackage: Save=482.34ms
+[2018.03.09-18.57.13:156][408]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character740BECEB407B6EE81BB7D7AABA472661.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.57.13:159][408]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.57.51:691][610]LogSavePackage: Save=486.44ms
+[2018.03.09-18.57.51:691][610]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character0ACA521E4CE26383CC7980980C99E2F2.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.57.51:695][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-18.58.42:684][681]LogSavePackage: Save=507.98ms
+[2018.03.09-18.58.42:684][681]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterCAADD621442CE91021E816865EA65C52.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-18.58.42:685][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.02.39:925][944]LogSavePackage: Save=545.44ms
+[2018.03.09-19.02.39:925][944]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character95F2D4904C2557FECFFC56B57A512CA2.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.02.39:927][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.03.38:550][385]LogSavePackage: Save=533.97ms
+[2018.03.09-19.03.38:550][385]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterB89571EE4C2BCBDF61032E9698313C73.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.03.38:552][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.04.48:338][505]LogSavePackage: Save=560.21ms
+[2018.03.09-19.04.48:338][505]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character6C006E324D75F514CCBCC7B2097BC2CF.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.04.48:341][505]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.05.48:581][  0]LogSavePackage: Save=540.92ms
+[2018.03.09-19.05.48:581][  0]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterA5AFA44840A7D3E0196E5A80395CE42C.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.05.48:583][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.05.57:110][468]LogSavePackage: Save=531.24ms
+[2018.03.09-19.05.57:110][468]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterA281BD5A41929D8F1E75B8961C11E13A.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.05.57:112][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.07.24:368][203]LogSavePackage: Save=577.04ms
+[2018.03.09-19.07.24:368][203]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterA4B937E34B79E008E1B633BD52BB6DFC.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.07.24:371][203]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.08.03:102][596]LogSavePackage: Save=588.38ms
+[2018.03.09-19.08.03:102][596]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character6D31DB5C4F053F15AADD1F9AA61B6FFC.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.08.03:104][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.08.22:249][993]LogSavePackage: Save=559.34ms
+[2018.03.09-19.08.22:249][993]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character841BCF9F4072B6D382E4E9B39A86672D.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.08.22:252][993]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.08.41:303][871]LogSavePackage: Save=578.65ms
+[2018.03.09-19.08.41:304][871]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterFAF06CE24F7FC7E14E63F186C1E89A18.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.08.41:306][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.09.27:656][381]LogSavePackage: Save=538.48ms
+[2018.03.09-19.09.27:656][381]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character3976A5A34E2D2CD198A6F9A30901216E.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.09.27:659][381]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.09.47:955][550]LogSavePackage: Save=522.66ms
+[2018.03.09-19.09.47:955][550]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterADEAA7C04C8C279CB04046A05C8AABA2.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.09.47:958][550]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.13.23:710][315]LogSavePackage: Save=503.18ms
+[2018.03.09-19.13.23:710][315]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character10D3511E42E0819BAC45B5AAA7366E62.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.13.23:712][315]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.13.29:576][946]LogSavePackage: Save=504.33ms
+[2018.03.09-19.13.29:576][946]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character32CF5F414F01075341459BA50F9430F2.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.13.29:578][946]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.13.35:868][627]LogSavePackage: Save=519.99ms
+[2018.03.09-19.13.35:868][627]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character662D290E46D59C0D2A8BCDA2AB4DED0D.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.13.35:870][627]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.13.36:278][674]BlueprintLog: New page: Compile VR_Character
+[2018.03.09-19.13.37:880][675]LogSavePackage: Save=518.96ms
+[2018.03.09-19.13.37:880][675]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_CharacterF51972DC43DD4C74138B4589127B6180.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.13.37:882][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.13.45:548][524]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.09-19.13.57:100][772]LogSavePackage: Save=410.69ms
+[2018.03.09-19.13.57:100][772]LogSavePackage: Moving '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/VR_Character1C8E6D6C40194410F37F5FB30D1CD7A7.tmp' to '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset'
+[2018.03.09-19.13.57:101][772]LogSavePackage: Display: Finished SavePackage ../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Z_Folder/Blueprints/VR_Character/VR_Character.uasset
+[2018.03.09-19.14.23:262][552]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.09-19.14.25:373][622]Cmd: QUIT_EDITOR
+[2018.03.09-19.14.25:406][622]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.09-19.14.25:430][622]LogExit: Preparing to exit.
+[2018.03.09-19.14.26:498][622]LogDirectoryWatcher: A directory notification for 'C:/Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/' was aborted.
+[2018.03.09-19.14.26:608][622]LogExit: Editor shut down
+[2018.03.09-19.14.26:620][622]LogExit: Transaction tracking system shut down
+[2018.03.09-19.14.26:830][622]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.09-19.14.26:830][622]LogDirectoryWatcher: A directory notification for '../../../../../../Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/' was aborted.
+[2018.03.09-19.14.26:830][622]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.09-19.14.26:830][622]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.09-19.14.26:830][622]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.09-19.14.26:830][622]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.09-19.14.26:830][622]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.09-19.14.26:992][622]LogExit: Object subsystem successfully closed.
+[2018.03.09-19.14.27:017][622]LogD3D11RHI: Shutdown
+[2018.03.09-19.14.27:017][622]LogD3D11RHI: CleanupD3DDevice
+[2018.03.09-19.14.27:030][622]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.09-19.14.27:067][622]LogModuleManager: Shutting down and abandoning module BlueprintGraph (551)
+[2018.03.09-19.14.27:067][622]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (549)
+[2018.03.09-19.14.27:067][622]LogModuleManager: Shutting down and abandoning module SceneOutliner (547)
+[2018.03.09-19.14.27:068][622]LogModuleManager: Shutting down and abandoning module AddContentDialog (545)
+[2018.03.09-19.14.27:068][622]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.09-19.14.27:070][622]LogModuleManager: Shutting down and abandoning module WidgetCarousel (544)
+[2018.03.09-19.14.27:070][622]LogModuleManager: Shutting down and abandoning module EditorWidgets (541)
+[2018.03.09-19.14.27:070][622]LogModuleManager: Shutting down and abandoning module CollectionManager (539)
+[2018.03.09-19.14.27:070][622]LogDirectoryWatcher: A directory notification for 'C:/Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Collections/' was aborted.
+[2018.03.09-19.14.27:070][622]LogDirectoryWatcher: A directory notification for 'C:/Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Content/Developers/Edward/Collections/' was aborted.
+[2018.03.09-19.14.27:071][622]LogDirectoryWatcher: A directory notification for 'C:/Projects/Unreal/VR_MultiPlayerShootout/MultiplayerShootout/Saved/Collections/' was aborted.
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module StatsViewer (537)
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module FoliageEdit (535)
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module LandscapeEditor (533)
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module MeshPaintMode (531)
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (529)
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module ActorPickerMode (527)
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module GeometryMode (525)
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module TextureAlignMode (523)
+[2018.03.09-19.14.27:071][622]LogModuleManager: Shutting down and abandoning module BspMode (521)
+[2018.03.09-19.14.27:072][622]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (519)
+[2018.03.09-19.14.27:072][622]LogModuleManager: Shutting down and abandoning module HardwareSurvey (517)
+[2018.03.09-19.14.27:072][622]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (515)
+[2018.03.09-19.14.27:072][622]LogModuleManager: Shutting down and abandoning module AutomationWorker (513)
+[2018.03.09-19.14.27:072][622]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (511)
+[2018.03.09-19.14.27:072][622]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (509)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module PlacementMode (508)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (505)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (503)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (501)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (499)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (497)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (495)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (493)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (491)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (489)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module CharacterAI (487)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module AudioCapture (485)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module SequenceRecorder (484)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module SmartSnapping (481)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module SessionServices (479)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module ViewportSnapping (477)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module ViewportInteraction (475)
+[2018.03.09-19.14.27:073][622]LogModuleManager: Shutting down and abandoning module ClothPainter (473)
+[2018.03.09-19.14.27:074][622]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (472)
+[2018.03.09-19.14.27:075][622]LogModuleManager: Shutting down and abandoning module LogVisualizer (469)
+[2018.03.09-19.14.27:075][622]LogModuleManager: Shutting down and abandoning module IntroTutorials (467)
+[2018.03.09-19.14.27:076][622]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (466)
+[2018.03.09-19.14.27:076][622]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (463)
+[2018.03.09-19.14.27:076][622]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (461)
+[2018.03.09-19.14.27:076][622]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (459)
+[2018.03.09-19.14.27:076][622]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (458)
+[2018.03.09-19.14.27:353][622]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (455)
+[2018.03.09-19.14.27:353][622]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (453)
+[2018.03.09-19.14.27:353][622]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (451)
+[2018.03.09-19.14.27:353][622]LogModuleManager: Shutting down and abandoning module InputBindingEditor (449)
+[2018.03.09-19.14.27:353][622]LogModuleManager: Shutting down and abandoning module MergeActors (447)
+[2018.03.09-19.14.27:354][622]LogModuleManager: Shutting down and abandoning module SizeMap (445)
+[2018.03.09-19.14.27:354][622]LogModuleManager: Shutting down and abandoning module TreeMap (443)
+[2018.03.09-19.14.27:354][622]LogModuleManager: Shutting down and abandoning module ReferenceViewer (441)
+[2018.03.09-19.14.27:354][622]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (439)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module LocalizationService (438)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module HardwareTargeting (435)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (433)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module UndoHistory (431)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module XmlParser (429)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module Blutility (427)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (425)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (424)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (421)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module SettingsEditor (419)
+[2018.03.09-19.14.27:355][622]LogModuleManager: Shutting down and abandoning module ProjectLauncher (417)
+[2018.03.09-19.14.27:356][622]LogModuleManager: Shutting down and abandoning module SessionFrontend (415)
+[2018.03.09-19.14.27:356][622]LogModuleManager: Shutting down and abandoning module ProfilerClient (413)
+[2018.03.09-19.14.27:357][622]LogModuleManager: Shutting down and abandoning module DeviceManager (411)
+[2018.03.09-19.14.27:357][622]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (410)
+[2018.03.09-19.14.27:434][622]LogModuleManager: Shutting down and abandoning module AutomationController (407)
+[2018.03.09-19.14.27:435][622]LogModuleManager: Shutting down and abandoning module AutomationWindow (405)
+[2018.03.09-19.14.27:437][622]LogModuleManager: Shutting down and abandoning module Layers (403)
+[2018.03.09-19.14.27:439][622]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (401)
+[2018.03.09-19.14.27:440][622]LogModuleManager: Shutting down and abandoning module DetailCustomizations (399)
+[2018.03.09-19.14.27:440][622]LogModuleManager: Shutting down and abandoning module PackagesDialog (397)
+[2018.03.09-19.14.27:440][622]LogModuleManager: Shutting down and abandoning module Persona (395)
+[2018.03.09-19.14.27:442][622]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (394)
+[2018.03.09-19.14.27:442][622]LogModuleManager: Shutting down and abandoning module AnimGraph (392)
+[2018.03.09-19.14.27:442][622]LogModuleManager: Shutting down and abandoning module Kismet (389)
+[2018.03.09-19.14.27:464][622]LogModuleManager: Shutting down and abandoning module ClassViewer (387)
+[2018.03.09-19.14.27:464][622]LogModuleManager: Shutting down and abandoning module Toolbox (385)
+[2018.03.09-19.14.27:464][622]LogModuleManager: Shutting down and abandoning module ModuleUI (383)
+[2018.03.09-19.14.27:464][622]LogModuleManager: Shutting down and abandoning module MovieSceneTools (381)
+[2018.03.09-19.14.27:466][622]LogModuleManager: Shutting down and abandoning module OutputLog (379)
+[2018.03.09-19.14.27:466][622]LogModuleManager: Shutting down and abandoning module GammaUI (377)
+[2018.03.09-19.14.27:467][622]LogModuleManager: Shutting down and abandoning module Documentation (375)
+[2018.03.09-19.14.27:467][622]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (373)
+[2018.03.09-19.14.27:467][622]LogModuleManager: Shutting down and abandoning module MovieScene (371)
+[2018.03.09-19.14.27:467][622]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (369)
+[2018.03.09-19.14.27:467][622]LogModuleManager: Shutting down and abandoning module LauncherPlatform (367)
+[2018.03.09-19.14.27:467][622]LogModuleManager: Shutting down and abandoning module AnalyticsET (365)
+[2018.03.09-19.14.27:467][622]LogModuleManager: Shutting down and abandoning module PortalServices (363)
+[2018.03.09-19.14.27:467][622]LogModuleManager: Shutting down and abandoning module PortalRpc (361)
+[2018.03.09-19.14.27:468][622]LogModuleManager: Shutting down and abandoning module MessagingRpc (359)
+[2018.03.09-19.14.27:468][622]LogModuleManager: Shutting down and abandoning module AIModule (357)
+[2018.03.09-19.14.27:468][622]LogModuleManager: Shutting down and abandoning module GameplayDebugger (356)
+[2018.03.09-19.14.27:468][622]LogModuleManager: Shutting down and abandoning module AITestSuite (354)
+[2018.03.09-19.14.27:468][622]LogModuleManager: Shutting down and abandoning module DesktopPlatform (351)
+[2018.03.09-19.14.27:468][622]LogModuleManager: Shutting down and abandoning module ProfilerService (349)
+[2018.03.09-19.14.27:545][622]LogModuleManager: Shutting down and abandoning module TaskGraph (347)
+[2018.03.09-19.14.27:545][622]LogModuleManager: Shutting down and abandoning module SteamVRController (345)
+[2018.03.09-19.14.27:545][622]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (343)
+[2018.03.09-19.14.27:545][622]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (341)
+[2018.03.09-19.14.27:545][622]LogModuleManager: Shutting down and abandoning module OculusInput (339)
+[2018.03.09-19.14.27:546][622]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (337)
+[2018.03.09-19.14.27:546][622]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (335)
+[2018.03.09-19.14.27:546][622]LogModuleManager: Shutting down and abandoning module CableComponent (333)
+[2018.03.09-19.14.27:546][622]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (331)
+[2018.03.09-19.14.27:546][622]LogModuleManager: Shutting down and abandoning module AndroidPermission (329)
+[2018.03.09-19.14.27:546][622]LogModuleManager: Shutting down and abandoning module ActorSequence (327)
+[2018.03.09-19.14.27:546][622]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (325)
+[2018.03.09-19.14.27:546][622]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (323)
+[2018.03.09-19.14.27:547][622]LogModuleManager: Shutting down and abandoning module MediaCompositing (321)
+[2018.03.09-19.14.27:547][622]LogModuleManager: Shutting down and abandoning module HTML5Networking (319)
+[2018.03.09-19.14.27:547][622]LogModuleManager: Shutting down and abandoning module AlembicImporter (317)
+[2018.03.09-19.14.27:547][622]LogModuleManager: Shutting down and abandoning module AlembicLibrary (316)
+[2018.03.09-19.14.27:547][622]LogModuleManager: Shutting down and abandoning module GeometryCache (315)
+[2018.03.09-19.14.27:547][622]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (314)
+[2018.03.09-19.14.27:547][622]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (309)
+[2018.03.09-19.14.27:547][622]LogModuleManager: Shutting down and abandoning module PluginBrowser (307)
+[2018.03.09-19.14.27:548][622]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (305)
+[2018.03.09-19.14.27:548][622]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (303)
+[2018.03.09-19.14.27:548][622]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (301)
+[2018.03.09-19.14.27:548][622]LogModuleManager: Shutting down and abandoning module UObjectPlugin (299)
+[2018.03.09-19.14.27:548][622]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (297)
+[2018.03.09-19.14.27:548][622]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (295)
+[2018.03.09-19.14.27:549][622]LogModuleManager: Shutting down and abandoning module GitSourceControl (293)
+[2018.03.09-19.14.27:549][622]LogModuleManager: Shutting down and abandoning module SourceControl (292)
+[2018.03.09-19.14.27:549][622]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (289)
+[2018.03.09-19.14.27:549][622]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (287)
+[2018.03.09-19.14.27:549][622]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (285)
+[2018.03.09-19.14.27:549][622]LogModuleManager: Shutting down and abandoning module Paper2DEditor (283)
+[2018.03.09-19.14.27:550][622]LogModuleManager: Shutting down and abandoning module MeshPaint (282)
+[2018.03.09-19.14.27:550][622]LogModuleManager: Shutting down and abandoning module LevelEditor (280)
+[2018.03.09-19.14.27:551][622]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (279)
+[2018.03.09-19.14.27:551][622]LogModuleManager: Shutting down and abandoning module MainFrame (277)
+[2018.03.09-19.14.27:551][622]LogModuleManager: Shutting down and abandoning module HotReload (276)
+[2018.03.09-19.14.27:552][622]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (271)
+[2018.03.09-19.14.27:552][622]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (269)
+[2018.03.09-19.14.27:552][622]LogModuleManager: Shutting down and abandoning module PhysXVehicles (267)
+[2018.03.09-19.14.27:552][622]LogModuleManager: Shutting down and abandoning module OculusEditor (265)
+[2018.03.09-19.14.27:552][622]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (263)
+[2018.03.09-19.14.27:552][622]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (261)
+[2018.03.09-19.14.27:552][622]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (259)
+[2018.03.09-19.14.27:552][622]LogModuleManager: Shutting down and abandoning module UdpMessaging (257)
+[2018.03.09-19.14.27:653][622]LogModuleManager: Shutting down and abandoning module TcpMessaging (255)
+[2018.03.09-19.14.27:754][622]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (253)
+[2018.03.09-19.14.27:754][622]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (251)
+[2018.03.09-19.14.27:754][622]LogModuleManager: Shutting down and abandoning module FacialAnimation (249)
+[2018.03.09-19.14.27:754][622]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (247)
+[2018.03.09-19.14.27:754][622]LogModuleManager: Shutting down and abandoning module GraphEditor (246)
+[2018.03.09-19.14.27:754][622]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2018.03.09-19.14.27:755][622]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (241)
+[2018.03.09-19.14.27:755][622]LogModuleManager: Shutting down and abandoning module Paper2D (239)
+[2018.03.09-19.14.27:755][622]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (237)
+[2018.03.09-19.14.27:755][622]LogModuleManager: Shutting down and abandoning module WmfMedia (235)
+[2018.03.09-19.14.27:758][622]LogModuleManager: Shutting down and abandoning module ImgMedia (233)
+[2018.03.09-19.14.27:758][622]LogModuleManager: Shutting down and abandoning module PacketHandler (231)
+[2018.03.09-19.14.27:758][622]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (229)
+[2018.03.09-19.14.27:758][622]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (227)
+[2018.03.09-19.14.27:759][622]LogModuleManager: Shutting down and abandoning module MediaAssets (225)
+[2018.03.09-19.14.27:759][622]LogModuleManager: Shutting down and abandoning module Media (224)
+[2018.03.09-19.14.27:765][622]LogModuleManager: Shutting down and abandoning module Overlay (221)
+[2018.03.09-19.14.27:765][622]LogModuleManager: Shutting down and abandoning module OverlayEditor (220)
+[2018.03.09-19.14.27:765][622]LogModuleManager: Shutting down and abandoning module VREditor (217)
+[2018.03.09-19.14.27:766][622]LogModuleManager: Shutting down and abandoning module StringTableEditor (215)
+[2018.03.09-19.14.27:766][622]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (213)
+[2018.03.09-19.14.27:766][622]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (211)
+[2018.03.09-19.14.27:767][622]LogModuleManager: Shutting down and abandoning module FunctionalTesting (209)
+[2018.03.09-19.14.27:767][622]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (207)
+[2018.03.09-19.14.27:767][622]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (206)
+[2018.03.09-19.14.27:767][622]LogModuleManager: Shutting down and abandoning module UMG (203)
+[2018.03.09-19.14.27:767][622]LogModuleManager: Shutting down and abandoning module UMGEditor (202)
+[2018.03.09-19.14.27:767][622]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2018.03.09-19.14.27:769][622]LogModuleManager: Shutting down and abandoning module MessageLog (198)
+[2018.03.09-19.14.27:769][622]LogModuleManager: Shutting down and abandoning module SlateReflector (193)
+[2018.03.09-19.14.27:771][622]LogModuleManager: Shutting down and abandoning module Slate (191)
+[2018.03.09-19.14.27:771][622]LogModuleManager: Shutting down and abandoning module EditorStyle (189)
+[2018.03.09-19.14.27:775][622]LogModuleManager: Shutting down and abandoning module MRMesh (187)
+[2018.03.09-19.14.27:775][622]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (185)
+[2018.03.09-19.14.27:776][622]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (183)
+[2018.03.09-19.14.27:776][622]LogModuleManager: Shutting down and abandoning module XAudio2 (181)
+[2018.03.09-19.14.27:776][622]LogModuleManager: Shutting down and abandoning module Networking (179)
+[2018.03.09-19.14.27:776][622]LogModuleManager: Shutting down and abandoning module Core (177)
+[2018.03.09-19.14.27:776][622]LogModuleManager: Shutting down and abandoning module LevelSequence (173)
+[2018.03.09-19.14.27:776][622]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (171)
+[2018.03.09-19.14.27:778][622]LogModuleManager: Shutting down and abandoning module KismetCompiler (169)
+[2018.03.09-19.14.27:778][622]LogModuleManager: Shutting down and abandoning module MeshUtilities (167)
+[2018.03.09-19.14.27:778][622]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (166)
+[2018.03.09-19.14.27:779][622]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (165)
+[2018.03.09-19.14.27:779][622]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (164)
+[2018.03.09-19.14.27:779][622]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (162)
+[2018.03.09-19.14.27:780][622]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (160)
+[2018.03.09-19.14.27:780][622]LogModuleManager: Shutting down and abandoning module MaterialBaking (156)
+[2018.03.09-19.14.27:780][622]LogModuleManager: Shutting down and abandoning module DerivedDataCache (153)
+[2018.03.09-19.14.27:791][622]LogDerivedDataCache: Shutdown
+[2018.03.09-19.14.27:791][622]LogModuleManager: Shutting down and abandoning module TargetPlatform (151)
+[2018.03.09-19.14.27:791][622]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (150)
+[2018.03.09-19.14.27:791][622]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (148)
+[2018.03.09-19.14.27:792][622]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (146)
+[2018.03.09-19.14.27:793][622]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (144)
+[2018.03.09-19.14.27:794][622]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (142)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (140)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (138)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (136)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (134)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (132)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module ImageWrapper (131)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (128)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (126)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (124)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (122)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (120)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (118)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (116)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (114)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (112)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module Messaging (110)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (108)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (106)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (104)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (102)
+[2018.03.09-19.14.27:795][622]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (100)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (98)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (96)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (94)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (92)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (90)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (88)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (86)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (84)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (82)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (80)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (78)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (76)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (74)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (72)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module InputCore (69)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module Settings (67)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module PhysXCooking (65)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module SteamVR (63)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module OculusHMD (61)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (59)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module AppleARKit (57)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module AugmentedReality (56)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
+[2018.03.09-19.14.27:796][622]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
+[2018.03.09-19.14.27:796][622]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.09-19.14.27:796][622]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.09-19.14.27:797][622]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.09-19.14.27:797][622]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.09-19.14.27:797][622]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.09-19.14.27:798][622]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.09-19.14.27:798][622]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.09-19.14.27:798][622]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA1789D2-4083-EB40-1C3C-30AC6EF7CC15%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=b7d42aa9425a2b96a995b2b52feb8fde%7C0d29643155df447f8ecd4affefbed7c2%7C03053c4e-1121-4012-9736-12cc463060cf&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.09-19.14.27:804][622]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.09-19.14.27:807][622]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.09-19.14.27:807][622]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.09-19.14.27:807][622]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.09-19.14.27:808][622]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.09-19.14.27:809][622]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.09-19.14.27:809][622]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.09-19.14.27:809][622]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.09-19.14.27:812][622]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.09-19.14.27:813][622]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.09-19.14.27:815][622]LogExit: Exiting.
+[2018.03.09-19.14.27:841][622]Log file closed, 03/09/18 14:14:27
